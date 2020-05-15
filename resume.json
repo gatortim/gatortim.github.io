@@ -1,93 +1,172 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
+    "name": "Tim Jacobs",
+    "label": "Software Engineer",
     "picture": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://johndoe.com",
-    "summary": "A summary of John Doe...",
+    "email": "timj.cu@gmail.com",
+    "phone": "(720) 934-6361",
+    "website": "https://www.linkedin.com/in/tim-jacobs-8208197/",
+    "summary": "Passionate software engineer focused on architecture and automated software testing. I have extensive root cause analysis experience and deliver precise DevOps solutions. I optimize processes and make data driven decisions by focusing on what really matters - customer satisfaction, the bottom line and exceptional quality.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "1535 Easy Rider Ln. #201",
+      "postalCode": "CO 80304",
+      "city": "Boulder",
       "countryCode": "US",
-      "region": "California"
+      "region": "Colorado"
     },
     "profiles": [{
-      "network": "Twitter",
-      "username": "john",
-      "url": "http://twitter.com/john"
+      "network": "LinkedIn",
+      "username": "Tim Jacobs",
+      "url": "https://www.linkedin.com/in/tim-jacobs-8208197/"
     }]
   },
   "work": [{
-    "company": "Company",
-    "position": "President",
-    "website": "http://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description...",
+    "company": "NetApp - Solidfire",
+    "position": "Senior Software Engineer",
+    "website": "http://netapp.com/us/products/storage-systems/all-flash-array/solidfire-scale-out.aspx",
+    "startDate": "2016-04-04",
+    "summary": "Test Lead, Product Owner, DevOps transformation contributor",
     "highlights": [
-      "Started the company"
+      "Designed test result reporting database, led team that brought service into production automating report generation for management",
+      "Assisted DevOps efforts - worked with team members to reduce build failure rate by 50%",
+      "Planned, developed, automated and triaged tests helping enable on-schedule feature delivery for 100% of features I led",
+      "Product owner supporting a remote team of 12 engineers in Bangalore",
+      "Contributed to design and development of new test framework enabling transition of 1000s of test cases from legacy framework to CI driven test framework",
+      "Reduced by 6x the resource requirements of legacy test suites by refactoring in two weeks"
     ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "website": "http://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description...",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
+  },
+    {
+      "company": "Micron",
+      "position": "SSD Validation Engineer, Engineering Supervisor",
+      "startDate": "2013-06-01",
+      "endDate": "2016-04-01",
+      "summary": "4 Direct reports as supervisor supporting 4 OEMs",
+      "highlights": [
+        "Enterprise and data center SAS/SATA SSD Qualification team supervisor supporting 4 products across 4 Tier 1 OEMs with 4 engineers",
+        "Designed, implemented, and deployed qualification test status and statistic database with test script integration automating reports for management",
+        "Rewrote automation client to satisfy compatibility teams requirements, reducing automation deployment schedule by 20 months, improving test execution and reporting efficiency by orders of magnitude",
+        "Personally executed OEM qualification, integration, and maintenance release validation with continuous debug, root cause, and issue resolution enabling >60M/qtr in revenue"
+      ]
+    },
+    {
+      "company": "Western Digital",
+      "position": "Senior Test Engineer",
+      "startDate": "2011-04-01",
+      "endDate": "2013-05-01",
+      "summary": "Test Lead",
+      "highlights": [
+        "Supported OEM qualification by debugging to root cause hundreds of test script failures on a bi-weekly cadence to support release schedules",
+        "Developed automated failure analysis debug scripts for FW team to reduce debug overhead by 30%.",
+        "Compiled MTTF, MTBF data on failure modes to enable program management,quality, and reliability teams to make data driven decisions supporting release schedules",
+        "Championed test execution efficiency effort more than doubling validation coverage"
+      ]
+    },
+    {
+      "company": "Parsons",
+      "position": "Field Engineer",
+      "startDate": "2009-05-01",
+      "endDate": "2011-03-01",
+      "summary": "Automated previously manual work control document production",
+      "highlights": [
+        "Built instrument, material, schedule and design verification database with web interface and automated work control document production reducing field rework from dozens of engineer hours per week to zero",
+        "Completed design and created procurement package for project InformationTechnology systems",
+        "Reviewed instrumentation and controls designs, developed work packages and work control materials for electrical, instrumentation and controls installation and testing"
+      ]
+    },
+    {
+      "company": "Seagate",
+      "position": "Hardware Test Engineer",
+      "startDate": "2005-12-01",
+      "endDate": "2009-04-01",
+      "summary": "Failure analysis lead",
+      "highlights": [
+        "Supported product transfer from development in Longmont to production in Wuxi, China as failure analysis lead",
+        "Delivered Seagate’s first 7200 RPM mobile drive to production volumes at > 90 %yields",
+        "Supported firmware selftest and manufacturing test with daily test performance and failure analysis feedback to cross functional core team"
+      ]
+    },
+    {
+      "company": "Seagate",
+      "position": "Intern",
+      "startDate": "2005-05-01",
+      "endDate": "2005-07-01",
+      "summary": "Summer Intern",
+      "highlights": [
+        "Tested a prototype automotive hard drive across environmental extremes for performance and reliability"
+      ]
+    }],
   "education": [{
-    "institution": "University",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "gpa": "4.0",
+    "institution": "University of Colorado at Boulder",
+    "area": "Electrical Engineering",
+    "studyType": "Bachelor of Science",
+    "endDate": "2005-12-16",
+    "gpa": "3.74 Cum Laude",
     "courses": [
-      "DB1101 - Basic SQL"
+      "Special focus in Bioengineering",
+      "Neural Network Design"
     ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "website": "http://publication.com",
-    "summary": "Description..."
   }],
   "skills": [{
-    "name": "Web Development",
+    "name": "Development",
     "level": "Master",
     "keywords": [
-      "HTML",
-      "CSS",
-      "Javascript"
+      "Python",
+      "SQL",
+      "Linux",
+      "OS X",
+      "Docker",
+      "Jenkins",
+      "Database schema architecture and design",
+      "vagrant",
+      "salt"
     ]
-  }],
+  },
+    {
+      "name": "Hadoop",
+      "level": "Well enough",
+      "keywords": [
+        "hive",
+        "oozie",
+        "zookeeper",
+        "pyspark",
+        "flume"
+      ]
+    },
+    {
+      "name": "Competencies",
+      "level": "Well enough",
+      "keywords": [
+        "CICD",
+        "Agile",
+        "Scaled Agile for Enterprises - SAFe",
+        "DevOps",
+        "Automation"
+      ]
+    }],
   "languages": [{
     "language": "English",
     "fluency": "Native speaker"
   }],
   "interests": [{
-    "name": "Wildlife",
+    "name": "Machine Learning",
     "keywords": [
-      "Ferrets",
-      "Unicorns"
+      "design and test neural networks to predict the outcome of football and NCAA basketball games "
     ]
-  }],
+  },
+    {
+      "name": "Hiking"
+    },
+    {
+      "name": "running"
+
+    },
+    {
+      "name": "Gator wrestler, snake handler",
+      "keywords": [
+        "Assistant handler of Alligators and Venomous Snakes at Reptile Gardens in Rapid City, SD. Extensive public speaking, not risk averse but very risk aware."
+      ]
+    }],
   "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference..."
+    "name": "Available upon request"
   }]
 }
