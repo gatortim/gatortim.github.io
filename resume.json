@@ -17,7 +17,7 @@
     "profiles": [{
       "network": "LinkedIn",
       "username": "Tim Jacobs",
-      "url": "https://www.linkedin.com/in/tim-jacobs-8208197/"
+      "url": "www.linkedin.com/in/tim-jacobs-software-engineer"
     }]
   },
   "work": [{
@@ -29,9 +29,9 @@
     "highlights": [
       "Designed test result reporting database, led team that brought service into production automating report generation for management",
       "Assisted DevOps efforts - worked with team members to reduce build failure rate by 50%",
-      "Planned, developed, automated and triaged tests helping enable on-schedule feature delivery for 100% of features I led",
+      "Planned, automated and triaged tests helping enable on-schedule feature delivery for 100% of features I led",
       "Product owner supporting a remote team of 12 engineers in Bangalore",
-      "Contributed to design and development of new test framework enabling transition of 1000s of test cases from legacy framework to CI driven test framework",
+      "Contributed to design and development of new test framework enabling transition of 1000s of test cases from legacy framework to containerized CI driven test framework",
       "Reduced by 6x the resource requirements of legacy test suites by refactoring in two weeks"
     ]
   },
@@ -117,19 +117,19 @@
       "Docker",
       "Jenkins",
       "Database schema architecture and design",
-      "vagrant",
-      "salt"
+      "Vagrant",
+      "Salt"
     ]
   },
     {
       "name": "Hadoop",
       "level": "Well enough",
       "keywords": [
-        "hive",
-        "oozie",
-        "zookeeper",
+        "Hive",
+        "Oozie",
+        "Zookeeper",
         "pyspark",
-        "flume"
+        "Flume"
       ]
     },
     {
