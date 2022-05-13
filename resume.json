@@ -20,11 +20,38 @@
       "url": "www.linkedin.com/in/tim-jacobs-software-engineer"
     }]
   },
-  "work": [{
+  "work": [
+    {
+      "company": "Pie Insurance",
+      "position": "Staff Software Engineer",
+      "website": "https://pieinsurance.com/",
+      "startDate": "2021-04-15",
+      "summary": "Quality Focused Staff Engineer",
+      "highlights": [
+        "Designed, developed and delivered test architecture for event driven billing service",
+        "Implemented continual delivery for multiple microservices based architectures",
+        "Designed and developed shared components for multiple teams"
+      ]
+    },
+    {
+      "company": "Pie Insurance",
+      "position": "Senior Software Engineer in Test",
+      "website": "https://pieinsurance.com/",
+      "startDate": "2020-10-05",
+      "endDate": "2021-04-14",
+      "summary": "Test Architecture Development and Implementation",
+      "highlights": [
+        "Developed and implemented test architecture for microservices in golang and python",
+        "Operational data team lead",
+        "Designed and implemented reference data re-architecture, moving mean commit to deploy time from weeks to hours"
+      ]
+    },
+    {
     "company": "NetApp - Solidfire",
     "position": "Senior Software Engineer",
     "website": "http://netapp.com/us/products/storage-systems/all-flash-array/solidfire-scale-out.aspx",
     "startDate": "2016-04-04",
+    "endDate": "2020-10-02",
     "summary": "Test Lead, Product Owner, DevOps transformation contributor",
     "highlights": [
       "Designed test result reporting database, led team that brought service into production automating report generation for management",
@@ -118,9 +145,23 @@
       "Jenkins",
       "Database schema architecture and design",
       "Vagrant",
-      "Salt"
+      "Salt",
+      "golang"
     ]
   },
+    {
+      "name":  "AWS",
+      "level": "Well enough",
+      "keywords": [
+        "serverless architecture",
+        "lambda",
+        "graphql / appsync",
+        "dynamodb",
+        "xray",
+        "ssm",
+        "cloudformation"
+      ]
+    },
     {
       "name": "Hadoop",
       "level": "Well enough",
