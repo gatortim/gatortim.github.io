@@ -30,7 +30,7 @@
       "highlights": [
         "Designed, developed and delivered test architecture for event driven billing service",
         "Implemented continual delivery for multiple microservices based architectures",
-        "Designed and developed shared components for multiple teams"
+        "Designed and developed dozens of shared components for multiple teams"
       ]
     },
     {
@@ -41,7 +41,7 @@
       "endDate": "2021-04-14",
       "summary": "Test Architecture Development and Implementation",
       "highlights": [
-        "Developed and implemented test architecture for microservices in golang and python",
+        "Developed and implemented test architecture for microservices in golang and python using AWS services",
         "Operational data team lead",
         "Designed and implemented reference data re-architecture, moving mean commit to deploy time from weeks to hours"
       ]
@@ -138,15 +138,13 @@
     "level": "Master",
     "keywords": [
       "Python",
+      "golang",
       "SQL",
+      "NoSQL",
       "Linux",
       "OS X",
       "Docker",
-      "Jenkins",
-      "Database schema architecture and design",
-      "Vagrant",
-      "Salt",
-      "golang"
+      "Database schema architecture and design"
     ]
   },
     {
@@ -154,12 +152,15 @@
       "level": "Well enough",
       "keywords": [
         "serverless architecture",
-        "lambda",
-        "graphql / appsync",
-        "dynamodb",
+        "Lambda",
+        "AppSync / GraphQL",
+        "DynamoDB",
         "xray",
-        "ssm",
-        "cloudformation"
+        "Systems Manager",
+        "CloudFormation",
+        "EventBridge / SQS",
+        "CodeDeploy",
+        "S3"
       ]
     },
     {
