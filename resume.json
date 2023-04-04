@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Tim Jacobs",
-    "label": "Software Engineer",
+    "label": "Staff Software Engineer",
     "picture": "avatar.jpg",
     "email": "timj.cu@gmail.com",
     "phone": "(720) 934-6361",
-    "website": "https://www.linkedin.com/in/tim-jacobs-8208197/",
-    "summary": "Passionate software engineer focused on architecture and automated software testing. I have extensive root cause analysis experience and deliver precise DevOps solutions. I optimize processes and make data driven decisions by focusing on what really matters - customer satisfaction, the bottom line and exceptional quality.",
+    "website": "www.linkedin.com/in/tim-jacobs-software-engineer",
+    "summary": "Driven software engineer focused on backend architecture and precise DevOps solutions.  With extensive experience from bits to terabytes I bring my passion to optimizing value streams and enabling data driven decisions.  Pragmatic, thoughtful, quality focused, collaborative and customer obsessed.",
     "location": {
       "address": "Denver",
       "postalCode": "CO 80203",
@@ -21,11 +21,22 @@
   },
   "work": [
     {
+      "company": "EDO Inc.",
+      "position": "Senior Software Engineer",
+      "website": "https://www.edo.com",
+      "startDate": "2022-12-15",
+      "summary": "",
+      "highlights": [
+        "Quickly contributed to recurring revenue by delivering new collection capability"
+      ]
+    },
+    {
       "company": "Pie Insurance",
       "position": "Staff Software Engineer",
       "website": "https://pieinsurance.com/",
       "startDate": "2021-04-15",
-      "summary": "Quality Focused Staff Engineer",
+      "endDate": "2022-12-05",
+      "summary": "Quality Focused Staff Software Engineer",
       "highlights": [
         "Designed, developed and delivered test architecture for event driven billing service",
         "Implemented continual delivery for multiple microservices based architectures",
@@ -134,24 +145,25 @@
   }],
   "skills": [{
     "name": "Development",
-    "level": "Master",
+    "level": "Accomplished",
     "keywords": [
       "Python",
-      "golang",
       "SQL",
       "NoSQL",
       "Linux",
-      "OS X",
       "Docker",
-      "Database schema architecture and design"
+      "Database architecture",
+      "Lambda",
+      "serverless architecture"
     ]
   },
     {
-      "name":  "AWS",
-      "level": "Well enough",
+      "name": "Development",
+      "level": "Capable",
       "keywords": [
-        "serverless architecture",
-        "Lambda",
+        "golang",
+        "ruby",
+        "pyspark",
         "AppSync / GraphQL",
         "DynamoDB",
         "xray",
@@ -164,24 +176,24 @@
     },
     {
       "name": "Hadoop",
-      "level": "Well enough",
+      "level": "Capable",
       "keywords": [
         "Hive",
         "Oozie",
         "Zookeeper",
-        "pyspark",
         "Flume"
       ]
     },
     {
       "name": "Competencies",
-      "level": "Well enough",
+      "level": "Accomplished",
       "keywords": [
         "CICD",
         "Agile",
         "Scaled Agile for Enterprises - SAFe",
         "DevOps",
-        "Automation"
+        "Automation",
+        "Test"
       ]
     }],
   "languages": [{
