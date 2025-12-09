@@ -8,8 +8,8 @@
     "website": "www.linkedin.com/in/tim-jacobs-software-engineer",
     "summary": "Driven software engineer focused on backend architecture and precise DevOps solutions.  With extensive experience from bits to terabytes I bring my passion to optimizing value streams and enabling data driven decisions.  Pragmatic, thoughtful, quality focused, collaborative and customer obsessed.",
     "location": {
-      "address": "Denver",
-      "postalCode": "CO 80203",
+      "address": "Longmont",
+      "postalCode": "CO 80501",
       "countryCode": "US",
       "region": "Colorado"
     },
@@ -25,9 +25,11 @@
       "position": "Senior Software Engineer",
       "website": "https://www.edo.com",
       "startDate": "2022-12-15",
-      "summary": "",
+      "summary": "Led high-leverage projects across core data platform with a focus on data governance, pipeline efficiency, and metadata standardization to enable advanced data science and reporting capabilities.",
       "highlights": [
-        "Quickly contributed to recurring revenue by delivering new collection capability"
+        "**Achieved and maintained 100% contractual data retention compliance** for high-priority streaming partners. Designed and deployed the automated deletion pipeline (dbt/Airflow) to meet a stringent **3-month data deletion mandate**, scaling it to support privacy requirements for **all major clients**.",
+        "**Architected and delivered the 1st-Party Pixel Metadata Unification System**, transforming raw client-side data into a canonical format for **critical advertising partners**. This reduced the Data Science team’s manual data wrangling and mapping effort by an estimated **30-50%**.",
+        "**Optimized core data infrastructure performance and reliability**. Implemented **Snowflake clustering** on major event tables, resulting in an estimated **15-25% reduction** in query latency and associated compute costs for downstream consumers."
       ]
     },
     {
