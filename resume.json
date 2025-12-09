@@ -8,8 +8,8 @@
     "website": "www.linkedin.com/in/tim-jacobs-software-engineer",
     "summary": "Driven software engineer focused on backend architecture and precise DevOps solutions.  With extensive experience from bits to terabytes I bring my passion to optimizing value streams and enabling data driven decisions.  Pragmatic, thoughtful, quality focused, collaborative and customer obsessed.",
     "location": {
-      "address": "Denver",
-      "postalCode": "CO 80203",
+      "address": "Longmont",
+      "postalCode": "CO 80501",
       "countryCode": "US",
       "region": "Colorado"
     },
@@ -25,9 +25,14 @@
       "position": "Senior Software Engineer",
       "website": "https://www.edo.com",
       "startDate": "2022-12-15",
-      "summary": "",
+      "summary": "Led development of scalable data ingestion frameworks, metadata systems, and cross-partner integrations supporting measurement, modeling, and reporting pipelines.",
       "highlights": [
-        "Quickly contributed to recurring revenue by delivering new collection capability"
+        "Designed and improved large-scale ingestion pipelines, including identity resolution flows, pixel metadata normalization, and multi-platform event streams.",
+        "Implemented and maintained complex Snowflake/dbt data models, backfills, clustering strategies, and high-volume ETL workflows supporting analytics and DS workloads.",
+        "Delivered numerous high-impact S2S and pixel integrations with major streaming, advertising, and data partners; built ingestion specs, metadata models, QA workflows, and verification tooling.",
+        "Drove privacy and compliance efforts: automated deletion/de-identification pipelines, retention workflows, and secure data-handling procedures across environments.",
+        "Reduced operational overhead by improving observability, data quality, linting/CI, access patterns, account recovery automation, and cross-functional documentation.",
+        "Partnered closely with Data Science, Infrastructure, Product, and external technical teams; provided technical leadership, pairing support, and design guidance across organizations."
       ]
     },
     {
@@ -171,7 +176,10 @@
         "CloudFormation",
         "EventBridge / SQS",
         "CodeDeploy",
-        "S3"
+        "S3",
+        "snowflake",
+        "dbt",
+        "Airflow"
       ]
     },
     {
