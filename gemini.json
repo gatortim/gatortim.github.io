@@ -1,0 +1,242 @@
+{
+  "basics": {
+    "name": "Tim Jacobs",
+    "label": "Staff Software Engineer",
+    "picture": "avatar.jpg",
+    "email": "timj.cu@gmail.com",
+    "phone": "(720) 934-6361",
+    "website": "www.linkedin.com/in/tim-jacobs-software-engineer",
+    "summary": "Highly-accomplished Staff Software Engineer specializing in large-scale backend architecture, data engineering, and high-impact DevOps transformation. Proven ability to drive technical roadmaps, mentor engineers, and deliver pragmatic, quality-focused solutions that optimize value streams and enable data-driven strategy across an organization.",
+    "location": {
+      "address": "Longmont",
+      "postalCode": "CO 80501",
+      "countryCode": "US",
+      "region": "Colorado"
+    },
+    "profiles": [{
+      "network": "LinkedIn",
+      "username": "Tim Jacobs",
+      "url": "www.linkedin.com/in/tim-jacobs-software-engineer"
+    }]
+  },
+  "work": [
+    {
+      "company": "EDO Inc.",
+      "position": "Senior Software Engineer (Architecture Lead)",
+      "website": "https://www.edo.com",
+      "startDate": "2022-12-15",
+      "summary": "Led development of scalable data ingestion frameworks, metadata systems, and cross-partner integrations supporting measurement, modeling, and reporting pipelines.",
+      "highlights": [
+        "Architected and improved large-scale ingestion pipelines, including identity resolution flows, pixel metadata normalization, and multi-platform event streams.",
+        "Implemented and maintained complex Snowflake/dbt data models, backfills, clustering strategies, and high-volume ETL workflows supporting analytics and Data Science workloads.",
+        "Delivered numerous high-impact S2S and pixel integrations with major streaming, advertising, and data partners; built ingestion specs, metadata models, QA workflows, and verification tooling.",
+        "Drove organizational privacy and compliance efforts by automating deletion/de-identification and retention pipelines across all production environments.",
+        "Reduced operational overhead by improving observability, data quality, linting/CI, access patterns, account recovery automation, and cross-functional documentation.",
+        "Provided technical leadership, pairing support, and architectural design guidance across Data Science, Infrastructure, Product, and external technical teams."
+      ]
+    },
+    {
+      "company": "Pie Insurance",
+      "position": "Staff Software Engineer",
+      "website": "https://pieinsurance.com/",
+      "startDate": "2021-04-15",
+      "endDate": "2022-12-05",
+      "summary": "Quality Focused Staff Software Engineer",
+      "highlights": [
+        "Designed and delivered robust test architecture for a complex, event-driven microservices billing platform, significantly improving system reliability.",
+        "Implemented continual delivery practices and tooling for multiple microservices-based architectures, enhancing deployment frequency and stability.",
+        "Spearheaded the design and development of dozens of shared, highly-reusable components, establishing internal standards and accelerating delivery for multiple engineering teams."
+      ]
+    },
+    {
+      "company": "Pie Insurance",
+      "position": "Senior Software Engineer in Test",
+      "website": "https://pieinsurance.com/",
+      "startDate": "2020-10-05",
+      "endDate": "2021-04-14",
+      "summary": "Test Architecture Development and Implementation",
+      "highlights": [
+        "Developed and implemented test architecture for microservices in golang and python using AWS services.",
+        "Operational data team lead, overseeing critical data workflows and system integrity.",
+        "Designed and implemented reference data re-architecture, moving mean commit to deploy time from weeks to hours."
+      ]
+    },
+    {
+    "company": "NetApp - Solidfire",
+    "position": "Senior Software Engineer (Product Owner/DevOps Contributor)",
+    "website": "http://netapp.com/us/products/storage-systems/all-flash-array/solidfire-scale-out.aspx",
+    "startDate": "2016-04-04",
+    "endDate": "2020-10-02",
+    "summary": "Test Lead, Product Owner, DevOps transformation contributor",
+    "highlights": [
+      "Designed and led the implementation of a test result reporting database service, automating report generation for management.",
+      "Contributed to DevOps efforts, collaborating to reduce build failure rate by 50%.",
+      "Planned, automated, and triaged tests, enabling on-schedule feature delivery for 100% of features I led.",
+      "Served as **Product Owner**, responsible for technical direction and mentorship for a remote team of 12 engineers in Bangalore.",
+      "Conceptualized and contributed to the design of a new test framework, enabling the transition of 1000s of test cases to a containerized CI-driven environment.",
+      "Reduced by 6x the resource requirements of legacy test suites by refactoring code in two weeks."
+    ]
+  },
+    {
+      "company": "Micron",
+      "position": "SSD Validation Engineer, Engineering Supervisor",
+      "startDate": "2013-06-01",
+      "endDate": "2016-04-01",
+      "summary": "4 Direct reports as supervisor supporting 4 OEMs",
+      "highlights": [
+        "Enterprise and data center SAS/SATA SSD Qualification team supervisor supporting 4 products across 4 Tier 1 OEMs with 4 engineers.",
+        "Designed, implemented, and deployed qualification test status and statistic database with test script integration automating reports for management.",
+        "Rewrote automation client to satisfy compatibility teams requirements, reducing automation deployment schedule by 20 months, improving test execution and reporting efficiency by orders of magnitude.",
+        "Personally executed OEM qualification, integration, and maintenance release validation with continuous debug, root cause, and issue resolution enabling >$60M/qtr in revenue."
+      ]
+    },
+    {
+      "company": "Western Digital",
+      "position": "Senior Test Engineer",
+      "startDate": "2011-04-01",
+      "endDate": "2013-05-01",
+      "summary": "Test Lead",
+      "highlights": [
+        "Supported OEM qualification by debugging to root cause hundreds of test script failures on a bi-weekly cadence to support release schedules.",
+        "Developed automated failure analysis debug scripts for FW team to reduce debug overhead by 30%.",
+        "Compiled MTTF, MTBF data on failure modes to enable program management, quality, and reliability teams to make data driven decisions supporting release schedules.",
+        "Championed test execution efficiency effort more than doubling validation coverage."
+      ]
+    },
+    {
+      "company": "Parsons",
+      "position": "Field Engineer",
+      "startDate": "2009-05-01",
+      "endDate": "2011-03-01",
+      "summary": "Automated previously manual work control document production",
+      "highlights": [
+        "Built instrument, material, schedule and design verification database with web interface and automated work control document production reducing field rework from dozens of engineer hours per week to zero.",
+        "Completed design and created procurement package for project Information Technology systems.",
+        "Reviewed instrumentation and controls designs, developed work packages and work control materials for electrical, instrumentation and controls installation and testing."
+      ]
+    },
+    {
+      "company": "Seagate",
+      "position": "Hardware Test Engineer",
+      "startDate": "2005-12-01",
+      "endDate": "2009-04-01",
+      "summary": "Failure analysis lead",
+      "highlights": [
+        "Supported product transfer from development in Longmont to production in Wuxi, China as failure analysis lead.",
+        "Delivered Seagate’s first 7200 RPM mobile drive to production volumes at > 90 % yields.",
+        "Supported firmware selftest and manufacturing test with daily test performance and failure analysis feedback to cross functional core team."
+      ]
+    },
+    {
+      "company": "Seagate",
+      "position": "Intern",
+      "startDate": "2005-05-01",
+      "endDate": "2005-07-01",
+      "summary": "Summer Intern",
+      "highlights": [
+        "Tested a prototype automotive hard drive across environmental extremes for performance and reliability."
+      ]
+    }],
+  "education": [{
+    "institution": "University of Colorado at Boulder",
+    "area": "Electrical Engineering",
+    "studyType": "Bachelor of Science",
+    "endDate": "2005-12-16",
+    "gpa": "3.74 Cum Laude",
+    "courses": [
+      "Special focus in Bioengineering",
+      "Neural Network Design"
+    ]
+  }],
+  "skills": [
+    {
+      "name": "Data & Backend Architecture",
+      "level": "Accomplished",
+      "keywords": [
+        "Python",
+        "SQL",
+        "NoSQL",
+        "Database architecture",
+        "serverless architecture",
+        "Snowflake",
+        "dbt (data build tool)",
+        "Airflow"
+      ]
+    },
+    {
+      "name": "Cloud & DevOps (AWS Focus)",
+      "level": "Capable",
+      "keywords": [
+        "Linux",
+        "Docker",
+        "Lambda",
+        "CloudFormation",
+        "EventBridge / SQS",
+        "S3",
+        "DynamoDB",
+        "xray",
+        "Systems Manager",
+        "CodeDeploy",
+        "CICD",
+        "DevOps",
+        "Automation"
+      ]
+    },
+    {
+      "name": "Languages & Frameworks",
+      "level": "Capable",
+      "keywords": [
+        "golang",
+        "ruby",
+        "pyspark",
+        "AppSync / GraphQL"
+      ]
+    },
+    {
+      "name": "Process & Leadership Competencies",
+      "level": "Accomplished",
+      "keywords": [
+        "Agile",
+        "Scaled Agile for Enterprises - SAFe",
+        "Test Architecture",
+        "Technical Mentorship"
+      ]
+    },
+    {
+      "name": "Legacy Data Ecosystems",
+      "level": "Capable",
+      "keywords": [
+        "Hadoop",
+        "Hive",
+        "Oozie",
+        "Zookeeper",
+        "Flume"
+      ]
+    }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Machine Learning",
+    "keywords": [
+      "design and test neural networks to predict the outcome of football and NCAA basketball games"
+    ]
+  },
+    {
+      "name": "Hiking"
+    },
+    {
+      "name": "running"
+
+    },
+    {
+      "name": "Gator wrestler, snake handler",
+      "keywords": [
+        "Assistant handler of Alligators and Venomous Snakes at Reptile Gardens in Rapid City, SD. Extensive public speaking, not risk averse but very risk aware."
+      ]
+    }],
+  "references": [{
+    "name": "Available upon request"
+  }]
+}
