@@ -26,9 +26,9 @@ COPY . /build
 
 # Install the chosen theme into the project so resume-cli (run from /build)
 # can resolve it via Node's module resolution.
-RUN npm --prefix /build install --no-save jsonresume-theme-elegant
+RUN npm --prefix /build install --no-save jsonresume-theme-onepage
 
-# Export index.html using the existing resume.json and the elegant theme.
+# Export index.html using the existing resume.json and the kendall theme.
 # Avoid `resume init` (interactive) — we assume `resume.json` is present.
-RUN [ -f resume.json ] && cd /build && resume export index.html -t elegant || (echo "resume.json not found" && false)
+RUN [ -f resume.json ] && cd /build && resume export index.html -t onepage || (echo "resume.json not found" && false)
 

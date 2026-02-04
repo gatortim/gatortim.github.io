@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Tim Jacobs",
-    "label": "Staff Software Engineer",
+    "label": "Human Being",
     "picture": "avatar.jpg",
     "email": "timj.cu@gmail.com",
     "phone": "(720) 934-6361",
-    "website": "www.linkedin.com/in/tim-jacobs-software-engineer",
-    "summary": "Driven software engineer focused on backend architecture and precise DevOps solutions.  With extensive experience from bits to terabytes I bring my passion to optimizing value streams and enabling data driven decisions.  Pragmatic, thoughtful, quality focused, collaborative and customer obsessed.",
+    "website": "BROKEN LINK",
+    "summary": "Generally pretty nice guy.  Existentalist philosophy.  Occasionally deeply depressed.  Am satieted by entering a state of flow while solving complex problems.  Focused on bringing peace and love into the universe while experiencing this temporary body.  Practicing integrating my soul, mind, and body into my experience.",
     "location": {
       "address": "Longmont",
       "postalCode": "CO 80501",
@@ -14,126 +14,36 @@
       "region": "Colorado"
     },
     "profiles": [{
-      "network": "LinkedIn",
+      "network": "None",
       "username": "Tim Jacobs",
-      "url": "www.linkedin.com/in/tim-jacobs-software-engineer"
+      "url": "I don't use social media really"
     }]
   },
   "work": [
     {
-      "company": "EDO Inc.",
-      "position": "Senior Software Engineer",
-      "website": "https://www.edo.com",
-      "startDate": "2022-12-15",
-      "summary": "Led high-leverage projects across core data platform with a focus on data governance, pipeline efficiency, and metadata standardization to enable advanced data science and reporting capabilities.",
+      "company": "Startups recently",
+      "position": "Software Engineer",
+      "website": "broken link",
+      "startDate": "A long long time...",
+      "summary": "It doesn't really matter",
       "highlights": [
-        "**Achieved and maintained 100% contractual data retention compliance** for high-priority streaming partners. Designed and deployed the automated deletion pipeline (dbt/Airflow) to meet a stringent **3-month data deletion mandate**, scaling it to support privacy requirements for **all major clients**.",
-        "**Architected and delivered the 1st-Party Pixel Metadata Unification System**, transforming raw client-side data into a canonical format for **critical advertising partners**. This reduced the Data Science team’s manual data wrangling and mapping effort by an estimated **30-50%**.",
-        "**Optimized core data infrastructure performance and reliability**. Implemented **Snowflake clustering** on major event tables, resulting in an estimated **15-25% reduction** in query latency and associated compute costs for downstream consumers."
+        "Wrote code that does things"
       ]
     },
     {
-      "company": "Pie Insurance",
-      "position": "Staff Software Engineer",
-      "website": "https://pieinsurance.com/",
-      "startDate": "2021-04-15",
-      "endDate": "2022-12-05",
-      "summary": "Quality Focused Staff Software Engineer",
+      "company": "Ex wife",
+      "position": "Caretaker",
+      "website": "broken link",
+      "startDate": "At least a decade",
+      "summary": "Cared for her.",
       "highlights": [
-        "Designed, developed and delivered test architecture for event driven billing service",
-        "Implemented continual delivery for multiple microservices based architectures",
-        "Designed and developed dozens of shared components for multiple teams"
+        "No kids",
+        "Left amicably",
+        "I told her Dad I would take care of her, he is dead now.",
+        "I think we now understand that this was for the best for both of us"
       ]
-    },
-    {
-      "company": "Pie Insurance",
-      "position": "Senior Software Engineer in Test",
-      "website": "https://pieinsurance.com/",
-      "startDate": "2020-10-05",
-      "endDate": "2021-04-14",
-      "summary": "Test Architecture Development and Implementation",
-      "highlights": [
-        "Developed and implemented test architecture for microservices in golang and python using AWS services",
-        "Operational data team lead",
-        "Designed and implemented reference data re-architecture, moving mean commit to deploy time from weeks to hours"
-      ]
-    },
-    {
-    "company": "NetApp - Solidfire",
-    "position": "Senior Software Engineer",
-    "website": "http://netapp.com/us/products/storage-systems/all-flash-array/solidfire-scale-out.aspx",
-    "startDate": "2016-04-04",
-    "endDate": "2020-10-02",
-    "summary": "Test Lead, Product Owner, DevOps transformation contributor",
-    "highlights": [
-      "Designed test result reporting database, led team that brought service into production automating report generation for management",
-      "Assisted DevOps efforts - worked with team members to reduce build failure rate by 50%",
-      "Planned, automated and triaged tests helping enable on-schedule feature delivery for 100% of features I led",
-      "Product owner supporting a remote team of 12 engineers in Bangalore",
-      "Contributed to design and development of new test framework enabling transition of 1000s of test cases from legacy framework to containerized CI driven test framework",
-      "Reduced by 6x the resource requirements of legacy test suites by refactoring in two weeks"
-    ]
-  },
-    {
-      "company": "Micron",
-      "position": "SSD Validation Engineer, Engineering Supervisor",
-      "startDate": "2013-06-01",
-      "endDate": "2016-04-01",
-      "summary": "4 Direct reports as supervisor supporting 4 OEMs",
-      "highlights": [
-        "Enterprise and data center SAS/SATA SSD Qualification team supervisor supporting 4 products across 4 Tier 1 OEMs with 4 engineers",
-        "Designed, implemented, and deployed qualification test status and statistic database with test script integration automating reports for management",
-        "Rewrote automation client to satisfy compatibility teams requirements, reducing automation deployment schedule by 20 months, improving test execution and reporting efficiency by orders of magnitude",
-        "Personally executed OEM qualification, integration, and maintenance release validation with continuous debug, root cause, and issue resolution enabling >60M/qtr in revenue"
-      ]
-    },
-    {
-      "company": "Western Digital",
-      "position": "Senior Test Engineer",
-      "startDate": "2011-04-01",
-      "endDate": "2013-05-01",
-      "summary": "Test Lead",
-      "highlights": [
-        "Supported OEM qualification by debugging to root cause hundreds of test script failures on a bi-weekly cadence to support release schedules",
-        "Developed automated failure analysis debug scripts for FW team to reduce debug overhead by 30%.",
-        "Compiled MTTF, MTBF data on failure modes to enable program management,quality, and reliability teams to make data driven decisions supporting release schedules",
-        "Championed test execution efficiency effort more than doubling validation coverage"
-      ]
-    },
-    {
-      "company": "Parsons",
-      "position": "Field Engineer",
-      "startDate": "2009-05-01",
-      "endDate": "2011-03-01",
-      "summary": "Automated previously manual work control document production",
-      "highlights": [
-        "Built instrument, material, schedule and design verification database with web interface and automated work control document production reducing field rework from dozens of engineer hours per week to zero",
-        "Completed design and created procurement package for project InformationTechnology systems",
-        "Reviewed instrumentation and controls designs, developed work packages and work control materials for electrical, instrumentation and controls installation and testing"
-      ]
-    },
-    {
-      "company": "Seagate",
-      "position": "Hardware Test Engineer",
-      "startDate": "2005-12-01",
-      "endDate": "2009-04-01",
-      "summary": "Failure analysis lead",
-      "highlights": [
-        "Supported product transfer from development in Longmont to production in Wuxi, China as failure analysis lead",
-        "Delivered Seagate’s first 7200 RPM mobile drive to production volumes at > 90 %yields",
-        "Supported firmware selftest and manufacturing test with daily test performance and failure analysis feedback to cross functional core team"
-      ]
-    },
-    {
-      "company": "Seagate",
-      "position": "Intern",
-      "startDate": "2005-05-01",
-      "endDate": "2005-07-01",
-      "summary": "Summer Intern",
-      "highlights": [
-        "Tested a prototype automotive hard drive across environmental extremes for performance and reliability"
-      ]
-    }],
+    }
+  ],
   "education": [{
     "institution": "University of Colorado at Boulder",
     "area": "Electrical Engineering",
@@ -146,55 +56,41 @@
     ]
   }],
   "skills": [{
-    "name": "Development",
+    "name": "General",
     "level": "Accomplished",
     "keywords": [
-      "Python",
-      "SQL",
-      "NoSQL",
+      "Pretty handy",
+      "Dog owner",
+      "Usually not too stinky",
       "Linux",
-      "Docker",
-      "Database architecture",
-      "Lambda",
-      "serverless architecture"
+      "Insightful",
+      "Kind",
+      "serverless architectures",
+      "Absurdist"
     ]
   },
     {
-      "name": "Development",
+      "name": "In Progress",
       "level": "Capable",
       "keywords": [
-        "golang",
-        "ruby",
-        "pyspark",
-        "AppSync / GraphQL",
-        "DynamoDB",
-        "xray",
-        "Systems Manager",
-        "CloudFormation",
-        "EventBridge / SQS",
-        "CodeDeploy",
-        "S3"
+        "Pretty out of shape - but thinking about changing this",
+        "Used to run a bit",
+        "Working on my patience",
+        "Empathy",
+        "Kindness",
+        "Reading",
+        "Continual improvement",
+        "Kaizen",
+        "Actually caring for myself"
       ]
     },
     {
-      "name": "Hadoop",
-      "level": "Capable",
+      "name": "Skill Gaps",
+      "level": "These are pretty established by now",
       "keywords": [
-        "Hive",
-        "Oozie",
-        "Zookeeper",
-        "Flume"
-      ]
-    },
-    {
-      "name": "Competencies",
-      "level": "Accomplished",
-      "keywords": [
-        "CICD",
-        "Agile",
-        "Scaled Agile for Enterprises - SAFe",
-        "DevOps",
-        "Automation",
+        "Not a particularly good cook",
+        "Tone deaf",
+        "Understanding social cues",
         "Test"
       ]
     }],
@@ -203,23 +99,32 @@
     "fluency": "Native speaker"
   }],
   "interests": [{
-    "name": "Machine Learning",
+    "name": "Music",
     "keywords": [
-      "design and test neural networks to predict the outcome of football and NCAA basketball games "
+      "Classic Rock",
+      "Acid Jazz",
+      "Hip Hop",
+      "Rap",
+      "Chill stuff to code to",
+      "Bach!",
+      "Yo-yo Ma"
     ]
   },
+  {
+    "name": "Walking my dog"
+  },
     {
-      "name": "Hiking"
-    },
-    {
-      "name": "running"
+      "name": "Calming myself with coding problems"
 
     },
     {
-      "name": "Gator wrestler, snake handler",
+      "name": "Philosophy",
       "keywords": [
-        "Assistant handler of Alligators and Venomous Snakes at Reptile Gardens in Rapid City, SD. Extensive public speaking, not risk averse but very risk aware."
+        "Existentialism, Stoicism, Buddhism"
       ]
+    },
+    {
+      "name": "Gator wrestler, snake handler"
     }],
   "references": [{
     "name": "Available upon request"
