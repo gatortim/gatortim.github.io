@@ -1,132 +1,292 @@
 {
   "basics": {
     "name": "Tim Jacobs",
-    "label": "Human Being",
+    "label": "Staff Software Engineer | Data Architecture, Scale & Automation",
     "picture": "avatar.jpg",
     "email": "timj.cu@gmail.com",
     "phone": "(720) 934-6361",
-    "website": "BROKEN LINK",
-    "summary": "Generally pretty nice guy.  Existentalist philosophy.  Occasionally deeply depressed.  Am satieted by entering a state of flow while solving complex problems.  Focused on bringing peace and love into the universe while experiencing this temporary body.  Practicing integrating my soul, mind, and body into my experience.",
+    "website": "https://www.linkedin.com/in/tim-jacobs-software-engineer",
+    "summary": "Staff Software Engineer architecting bit to petabyte-scale data solutions. Supporting partners from schema proposal through delivering client delight. Thoughtful, collaborative, and focused on driving business outcomes.",
     "location": {
       "address": "Longmont",
       "postalCode": "CO 80501",
       "countryCode": "US",
       "region": "Colorado"
     },
-    "profiles": [{
-      "network": "None",
-      "username": "Tim Jacobs",
-      "url": "I don't use social media really"
-    }]
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Tim Jacobs",
+        "url": "https://www.linkedin.com/in/tim-jacobs-software-engineer"
+      }
+    ]
   },
   "work": [
     {
-      "company": "Startups recently",
-      "position": "Software Engineer",
-      "website": "broken link",
-      "startDate": "A long long time...",
-      "summary": "It doesn't really matter",
+      "company": "EDO Inc.",
+      "position": "Senior Data Engineer",
+      "website": "https://www.edo.com",
+      "startDate": "2022-12-15",
+      "summary": "Architecture & Regulatory Compliance Leadership",
       "highlights": [
-        "Wrote code that does things"
+        "Enabled trillions of rows of cross-platform data to flow through Snowflake productively, supporting always-on analytics for 20+ enterprise partners",
+        "Scaled identity resolution process to 100s of millions of monthly impression events",
+        "Architected data deletion & de-identification system across distributed Snowflake/Airflow infrastructure; ensured regulatory compliance for sensitive PII within strict SLAs for high-profile enterprise partners"
       ]
     },
     {
-      "company": "Ex wife",
-      "position": "Caretaker",
-      "website": "broken link",
-      "startDate": "At least a decade",
-      "summary": "Cared for her.",
+      "company": "Pie Insurance",
+      "position": "Staff Software Engineer",
+      "website": "https://pieinsurance.com/",
+      "startDate": "2021-04-15",
+      "endDate": "2022-12-05",
+      "summary": "Microservices Architecture & Quality-Obsessed Technical Leadership",
       "highlights": [
-        "No kids",
-        "Left amicably",
-        "I told her Dad I would take care of her, he is dead now.",
-        "I think we now understand that this was for the best for both of us"
+        "Designed & delivered comprehensive test architecture for event-driven billing service processing millions of daily transactions; enabled continuous deployment across 8+ microservices-based systems with 99.9% reliability",
+        "Architected & deployed 40+ shared platform components consumed by 15+ engineering teams; reduced time-to-market for new features by 50% and improved code reuse across organization",
+        "Led technical design of CI/CD pipeline modernization (GitHub Actions + ArgoCD); improved deployment velocity by 3x, reduced mean time to recovery by 60%, and enabled 200+ deployments/week",
+        "Mentored 6 junior engineers on microservices patterns, testing strategy, and AWS cloud best practices; 3 engineers promoted during tenure"
+      ]
+    },
+    {
+      "company": "Pie Insurance",
+      "position": "Senior Software Engineer in Test",
+      "website": "https://pieinsurance.com/",
+      "startDate": "2020-10-05",
+      "endDate": "2021-04-14",
+      "summary": "Test Automation & Operational Data Architecture",
+      "highlights": [
+        "Developed scalable test automation framework for microservices in Python/Golang using AWS Lambda, S3, and SQS; automated 90% of previously manual test execution, reducing test cycle time from 6 hours to 12 minutes",
+        "Led operational data team; designed & implemented reference data re-architecture using event-driven ETL; reduced mean commit-to-deploy time from weeks to hours, enabling release velocity of 3x",
+        "Built comprehensive test reporting & analytics platform; provided actionable insights to product & engineering leadership enabling data-driven quality decisions"
+      ]
+    },
+    {
+      "company": "NetApp - Solidfire",
+      "position": "Senior Software Engineer",
+      "website": "http://netapp.com/us/products/storage-systems/all-flash-array/solidfire-scale-out.aspx",
+      "startDate": "2016-04-04",
+      "endDate": "2020-10-02",
+      "summary": "Test Automation Leadership, Platform Architecture & DevOps Transformation",
+      "highlights": [
+        "Designed & led test result reporting platform from concept to production; engineered queryable database with 2M+ daily test records and automated management dashboards, eliminating 40+ hours/week of manual reporting",
+        "Spearheaded DevOps transformation initiative with cross-functional stakeholders; reduced build failure rate by 50%, improved deployment reliability by 35%, and decreased infrastructure costs by $500K+/year",
+        "Architected & contributed to containerized test framework enabling migration of 1,000+ test cases from legacy systems to modern CI-driven infrastructure; reduced test execution time by 70% and improved reproducibility",
+        "Served as product owner for distributed engineering team of 12 engineers (Bangalore); maintained 100% on-schedule feature delivery through clear technical direction, architectural decisions, and mentorship",
+        "Optimized legacy test suites through systematic refactoring & parallelization; reduced resource requirements by 6x in 2 weeks, saving ~$200K/year in infrastructure costs"
+      ]
+    },
+    {
+      "company": "Micron Technology",
+      "position": "SSD Validation Engineer → Engineering Supervisor",
+      "startDate": "2013-06-01",
+      "endDate": "2016-04-01",
+      "summary": "Validation Leadership & Data-Driven Operations (4 Direct Reports)",
+      "highlights": [
+        "Managed team of 4 engineers validating enterprise/data center SAS/SATA SSDs across 4 Tier-1 OEM partners; maintained >$60M quarterly revenue through rigorous, on-time qualification processes",
+        "Designed & deployed qualification test status database with automated test script integration; eliminated manual reporting, enabled real-time visibility into validation progress, and reduced management reporting overhead by 30 hours/week",
+        "Led complete automation client rewrite to meet compatibility team requirements; reduced deployment schedule by 20 months, improved test execution efficiency by orders of magnitude, and unblocked product roadmap",
+        "Personally executed OEM qualification, integration, and maintenance release validation; debugged & resolved 500+ test failures through systematic root cause analysis, enabling on-schedule product releases"
+      ]
+    },
+    {
+      "company": "Western Digital",
+      "position": "Senior Test Engineer",
+      "startDate": "2011-04-01",
+      "endDate": "2013-05-01",
+      "summary": "Test Leadership & Failure Analysis",
+      "highlights": [
+        "Led OEM qualification by debugging & resolving 500+ test script failures on bi-weekly cadence; maintained release schedules through rigorous root cause analysis and continuous communication with firmware & systems teams",
+        "Developed automated failure analysis debug scripts for firmware team; reduced debug overhead by 30% and accelerated time-to-resolution by 2x, enabling faster release cycles",
+        "Compiled MTTF/MTBF data on failure modes enabling program management, quality, and reliability teams to make data-driven decisions supporting product roadmaps and SLAs",
+        "Championed test execution efficiency initiative; more than doubled validation coverage while maintaining quality standards and reducing infrastructure costs"
+      ]
+    },
+    {
+      "company": "Parsons Infrastructure & Technology",
+      "position": "Field Engineer",
+      "startDate": "2009-05-01",
+      "endDate": "2011-03-01",
+      "summary": "Automation & Systems Integration Leadership",
+      "highlights": [
+        "Built comprehensive instrument, material, schedule & design verification database with web interface & automated work control document generation; eliminated field rework, reducing engineering overhead from 40+ hours/week to zero",
+        "Designed & procured complete project IT systems infrastructure; coordinated with stakeholders across electrical, instrumentation, and controls disciplines",
+        "Reviewed instrumentation & controls designs; developed work packages & technical documentation for installation, testing, and commissioning"
+      ]
+    },
+    {
+      "company": "Seagate Technology",
+      "position": "Hardware Test Engineer → Failure Analysis Lead",
+      "startDate": "2005-12-01",
+      "endDate": "2009-04-01",
+      "summary": "Failure Analysis Leadership & Product Transfer to Production",
+      "highlights": [
+        "Led product transfer from development (Longmont, CO) to production (Wuxi, China) as failure analysis lead; delivered Seagate's first 7200 RPM mobile drive to production at >90% yields",
+        "Provided daily test performance & failure analysis feedback to cross-functional core team supporting firmware self-test optimization and manufacturing test enhancement",
+        "Established failure tracking & root cause analysis processes; improved yield by 15% and reduced time-to-resolution for critical issues by 40%"
+      ]
+    },
+    {
+      "company": "Seagate Technology",
+      "position": "Summer Intern",
+      "startDate": "2005-05-01",
+      "endDate": "2005-07-01",
+      "summary": "Automotive HDD Validation",
+      "highlights": [
+        "Tested prototype automotive hard drive across environmental extremes (temperature, vibration, altitude) for performance and reliability; contributed to early-stage product validation and feasibility assessment"
       ]
     }
   ],
-  "education": [{
-    "institution": "University of Colorado at Boulder",
-    "area": "Electrical Engineering",
-    "studyType": "Bachelor of Science",
-    "endDate": "2005-12-16",
-    "gpa": "3.74 Cum Laude",
-    "courses": [
-      "Special focus in Bioengineering",
-      "Neural Network Design"
-    ]
-  }],
-  "skills": [{
-    "name": "General",
-    "level": "Accomplished",
-    "keywords": [
-      "Pretty handy",
-      "Dog owner",
-      "Usually not too stinky",
-      "Linux",
-      "Insightful",
-      "Kind",
-      "serverless architectures",
-      "Absurdist"
-    ]
-  },
+  "education": [
     {
-      "name": "In Progress",
+      "institution": "University of Colorado at Boulder",
+      "area": "Electrical Engineering",
+      "studyType": "Bachelor of Science",
+      "endDate": "2005-12-16",
+      "gpa": "3.74 (Cum Laude)",
+      "courses": [
+        "Neural Network Design",
+        "Bioengineering focus"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Data Engineering & Architecture",
+      "level": "Expert",
+      "keywords": [
+        "Snowflake (Clustering, Secure Data Sharing, query optimization)",
+        "dbt (source/core/prep modeling, lineage)",
+        "Apache Airflow (DAG orchestration, operators, monitoring)",
+        "ETL/ELT pipeline design & optimization",
+        "Identity resolution & data matching",
+        "Event-driven architecture",
+        "Data warehouse design",
+        "PII handling & governance"
+      ]
+    },
+    {
+      "name": "Cloud Architecture & DevOps",
+      "level": "Expert",
+      "keywords": [
+        "AWS (Lambda, S3, SQS, SNS, Secrets Manager, Systems Manager, CloudFormation, IAM)",
+        "Server-to-Server (S2S) integrations",
+        "Microservices architecture",
+        "Docker & container orchestration",
+        "CI/CD pipeline design (GitHub Actions, GitLab CI, Jenkins)",
+        "Infrastructure-as-Code",
+        "Kubernetes (basic)",
+        "Monitoring & observability (CloudWatch, X-Ray)"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "level": "Expert",
+      "keywords": [
+        "Python (async, data processing, testing)",
+        "SQL (query optimization, complex joins, window functions)",
+        "Linux/Unix system administration",
+        "Database design & optimization",
+        "Serverless architecture"
+      ]
+    },
+    {
+      "name": "Software Development (Capable)",
+      "level": "Accomplished",
+      "keywords": [
+        "Go/Golang (microservices, systems programming)",
+        "Ruby (Rails, scripting)",
+        "PySpark (distributed data processing)",
+        "GraphQL / AppSync",
+        "DynamoDB (NoSQL design)",
+        "JavaScript/TypeScript (basic)"
+      ]
+    },
+    {
+      "name": "Privacy, Compliance & Data Governance",
+      "level": "Accomplished",
+      "keywords": [
+        "GDPR compliance & de-identification",
+        "CCPA compliance",
+        "PII protection & encryption",
+        "Data governance frameworks",
+        "Key rotation & secrets management",
+        "Audit logging & compliance automation",
+        "Data retention policies"
+      ]
+    },
+    {
+      "name": "Engineering Leadership & SDLC",
+      "level": "Expert",
+      "keywords": [
+        "Technical architecture & design",
+        "Agile/Scrum leadership",
+        "CI/CD optimization",
+        "DevOps transformation",
+        "Team mentoring & onboarding",
+        "Scaled Agile for Enterprises (SAFe)",
+        "Cross-functional collaboration",
+        "Technical documentation",
+        "Code review & quality standards"
+      ]
+    },
+    {
+      "name": "Quality Assurance & Testing",
+      "level": "Expert",
+      "keywords": [
+        "Test automation framework design",
+        "Unit, integration, & end-to-end testing",
+        "Test data management",
+        "Failure analysis & root cause",
+        "Performance & load testing",
+        "Continuous testing",
+        "Quality metrics & KPIs"
+      ]
+    },
+    {
+      "name": "Big Data Technologies",
       "level": "Capable",
       "keywords": [
-        "Pretty out of shape - but thinking about changing this",
-        "Used to run a bit",
-        "Working on my patience",
-        "Empathy",
-        "Kindness",
-        "Reading",
-        "Continual improvement",
-        "Kaizen",
-        "Actually caring for myself"
+        "Apache Hive",
+        "Apache Oozie",
+        "Apache Flume",
+        "Zookeeper"
       ]
-    },
+    }
+  ],
+  "languages": [
     {
-      "name": "Skill Gaps",
-      "level": "These are pretty established by now",
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Machine Learning & Predictive Analytics",
       "keywords": [
-        "Not a particularly good cook",
-        "Tone deaf",
-        "Understanding social cues",
-        "Test"
+        "Design and validation of neural networks for sports prediction (NCAA basketball & college football outcomes)"
       ]
-    }],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Music",
-    "keywords": [
-      "Classic Rock",
-      "Acid Jazz",
-      "Hip Hop",
-      "Rap",
-      "Chill stuff to code to",
-      "Bach!",
-      "Yo-yo Ma"
-    ]
-  },
-  {
-    "name": "Walking my dog"
-  },
-    {
-      "name": "Calming myself with coding problems"
-
     },
     {
-      "name": "Philosophy",
+      "name": "Outdoor Recreation",
       "keywords": [
-        "Existentialism, Stoicism, Buddhism"
+        "Hiking",
+        "Trail running",
+        "Mountain biking"
       ]
     },
     {
-      "name": "Gator wrestler, snake handler"
-    }],
-  "references": [{
-    "name": "Available upon request"
-  }]
+      "name": "Wildlife Education & Risk Management",
+      "keywords": [
+        "Assistant handler of alligators and venomous snakes (Reptile Gardens, Rapid City, SD)",
+        "Public speaking & education on wildlife safety",
+        "Risk assessment & mitigation in high-stakes environments"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
 }
