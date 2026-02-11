@@ -1,38 +1,29 @@
 FROM alpine:edge
 
-# Installs latest Chromium (77) package.
+# 1. Install system dependencies for Chromium and Node
 RUN apk add --no-cache \
-      chromium \
-      nss \
-      freetype \
-      freetype-dev \
-      harfbuzz \
-      ca-certificates \
-      ttf-freefont \
-      nodejs \
-      npm \
-      yarn 
+    nodejs \
+    npm \
+    chromium \
+    nss \
+    freetype \
+    harfbuzz \
+    ca-certificates \
+    ttf-freefont
 
+# 2. Set environment variables for Puppeteer
+ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
+    PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser
 
-# Tell Puppeteer to skip installing Chrome. We'll be using the installed package.
-ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
+WORKDIR /app
 
-# Puppeteer v1.19.0 works with Chromium 77.
-RUN yarn add puppeteer@1.19.0
+# 3. Install resume-cli GLOBALLY so the command 'resume' is in your PATH
+# 4. Install the theme LOCALLY so the CLI can find it in ./node_modules
+RUN npm install -g resume-cli --unsafe-perm && \
+    npm install jsonresume-theme-simplyelegant
 
-# Add user so we don't need --no-sandbox.
-RUN addgroup -S pptruser && adduser -S -g pptruser pptruser \
-    && mkdir -p /home/pptruser/Downloads /app \
-    && chown -R pptruser:pptruser /home/pptruser \
-    && chown -R pptruser:pptruser /app
+# 5. Copy your resume data
+COPY resume.json .
 
-
-RUN npm install -g resume-cli \
-  jsonresume-theme-classy
-
-# Run everything after as non-privileged user.
-
-WORKDIR /build/
-ADD . /build/
-RUN resume init && resume export index.html -t classy
-
+# 6. Run export (CLI will now see the theme in /app/node_modules)
+RUN resume export index.html -t simplyelegant

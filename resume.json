@@ -1,15 +1,14 @@
 {
   "basics": {
     "name": "Tim Jacobs",
-    "label": "Staff Software Engineer | Data Architecture, Scale & Automation",
+    "label": "Staff Software Engineer | Data Engineering & Architecture",
     "picture": "avatar.jpg",
     "email": "timj.cu@gmail.com",
     "phone": "(720) 934-6361",
     "website": "https://www.linkedin.com/in/tim-jacobs-software-engineer",
-    "summary": "Staff Software Engineer architecting bit to petabyte-scale data solutions. Supporting partners from schema proposal through delivering client delight. Thoughtful, collaborative, and focused on driving business outcomes.",
+    "summary": "Staff Software Engineer specializing in large-scale backend architecture, data engineering, and high-impact DevOps transformation. Proven ability to drive technical roadmaps, mentor engineers, and deliver pragmatic, quality-focused solutions that optimize value streams and enable data-driven strategy across organizations.",
     "location": {
       "address": "Longmont",
-      "postalCode": "CO 80501",
       "countryCode": "US",
       "region": "Colorado"
     },
@@ -27,11 +26,10 @@
       "position": "Senior Data Engineer",
       "website": "https://www.edo.com",
       "startDate": "2022-12-15",
-      "summary": "Architecture & Regulatory Compliance Leadership",
       "highlights": [
-        "Enabled trillions of rows of cross-platform data to flow through Snowflake productively, supporting always-on analytics for 20+ enterprise partners",
-        "Scaled identity resolution process to 100s of millions of monthly impression events",
-        "Architected data deletion & de-identification system across distributed Snowflake/Airflow infrastructure; ensured regulatory compliance for sensitive PII within strict SLAs for high-profile enterprise partners"
+        "Scalable Data Infrastructure: Implemented medallion architecture on Snowflake-based data pipelines to ingest and process trillions of rows of cross-platform data, supporting 20+ enterprise partners.",
+        "Privacy & Governance Framework: Architected a comprehensive data deletion and anonymization system in Snowflake and Airflow to ensure legal and regulatory compliance; established flexible automated TTL (Time-To-Live) policies for sensitive PII data across large-scale distributed datasets.",
+        "Unified Metadata Architecture: Engineered hypernormalized metadata management."
       ]
     },
     {
@@ -57,8 +55,7 @@
       "summary": "Test Automation & Operational Data Architecture",
       "highlights": [
         "Developed scalable test automation framework for microservices in Python/Golang using AWS Lambda, S3, and SQS; automated 90% of previously manual test execution, reducing test cycle time from 6 hours to 12 minutes",
-        "Led operational data team; designed & implemented reference data re-architecture using event-driven ETL; reduced mean commit-to-deploy time from weeks to hours, enabling release velocity of 3x",
-        "Built comprehensive test reporting & analytics platform; provided actionable insights to product & engineering leadership enabling data-driven quality decisions"
+        "Led operational data team; designed & implemented reference data re-architecture using event-driven ETL; reduced mean commit-to-deploy time from weeks to hours, enabling release velocity of 3x"
       ]
     },
     {
@@ -85,8 +82,7 @@
       "highlights": [
         "Managed team of 4 engineers validating enterprise/data center SAS/SATA SSDs across 4 Tier-1 OEM partners; maintained >$60M quarterly revenue through rigorous, on-time qualification processes",
         "Designed & deployed qualification test status database with automated test script integration; eliminated manual reporting, enabled real-time visibility into validation progress, and reduced management reporting overhead by 30 hours/week",
-        "Led complete automation client rewrite to meet compatibility team requirements; reduced deployment schedule by 20 months, improved test execution efficiency by orders of magnitude, and unblocked product roadmap",
-        "Personally executed OEM qualification, integration, and maintenance release validation; debugged & resolved 500+ test failures through systematic root cause analysis, enabling on-schedule product releases"
+        "Led complete automation client rewrite to meet compatibility team requirements; reduced deployment schedule by 20 months, improved test execution efficiency by orders of magnitude, and unblocked product roadmap"
       ]
     },
     {
@@ -96,10 +92,8 @@
       "endDate": "2013-05-01",
       "summary": "Test Leadership & Failure Analysis",
       "highlights": [
-        "Led OEM qualification by debugging & resolving 500+ test script failures on bi-weekly cadence; maintained release schedules through rigorous root cause analysis and continuous communication with firmware & systems teams",
         "Developed automated failure analysis debug scripts for firmware team; reduced debug overhead by 30% and accelerated time-to-resolution by 2x, enabling faster release cycles",
-        "Compiled MTTF/MTBF data on failure modes enabling program management, quality, and reliability teams to make data-driven decisions supporting product roadmaps and SLAs",
-        "Championed test execution efficiency initiative; more than doubled validation coverage while maintaining quality standards and reducing infrastructure costs"
+        "Compiled MTTF/MTBF data on failure modes enabling program management, quality, and reliability teams to make data-driven decisions supporting product roadmaps and SLAs"
       ]
     },
     {
@@ -109,9 +103,7 @@
       "endDate": "2011-03-01",
       "summary": "Automation & Systems Integration Leadership",
       "highlights": [
-        "Built comprehensive instrument, material, schedule & design verification database with web interface & automated work control document generation; eliminated field rework, reducing engineering overhead from 40+ hours/week to zero",
-        "Designed & procured complete project IT systems infrastructure; coordinated with stakeholders across electrical, instrumentation, and controls disciplines",
-        "Reviewed instrumentation & controls designs; developed work packages & technical documentation for installation, testing, and commissioning"
+        "Built comprehensive instrument, material, schedule & design verification database with web interface & automated work control document generation; eliminated field rework, reducing engineering overhead from 40+ hours/week to zero"
       ]
     },
     {
@@ -121,19 +113,7 @@
       "endDate": "2009-04-01",
       "summary": "Failure Analysis Leadership & Product Transfer to Production",
       "highlights": [
-        "Led product transfer from development (Longmont, CO) to production (Wuxi, China) as failure analysis lead; delivered Seagate's first 7200 RPM mobile drive to production at >90% yields",
-        "Provided daily test performance & failure analysis feedback to cross-functional core team supporting firmware self-test optimization and manufacturing test enhancement",
-        "Established failure tracking & root cause analysis processes; improved yield by 15% and reduced time-to-resolution for critical issues by 40%"
-      ]
-    },
-    {
-      "company": "Seagate Technology",
-      "position": "Summer Intern",
-      "startDate": "2005-05-01",
-      "endDate": "2005-07-01",
-      "summary": "Automotive HDD Validation",
-      "highlights": [
-        "Tested prototype automotive hard drive across environmental extremes (temperature, vibration, altitude) for performance and reliability; contributed to early-stage product validation and feasibility assessment"
+        "Led product transfer from development (Longmont, CO) to production (Wuxi, China) as failure analysis lead; delivered Seagate's first 7200 RPM mobile drive to production at >90% yields"
       ]
     }
   ],
@@ -155,37 +135,32 @@
       "name": "Data Engineering & Architecture",
       "level": "Expert",
       "keywords": [
-        "Snowflake (Clustering, Secure Data Sharing, query optimization)",
-        "dbt (source/core/prep modeling, lineage)",
-        "Apache Airflow (DAG orchestration, operators, monitoring)",
+        "Snowflake",
+        "dbt",
+        "Apache Airflow",
         "ETL/ELT pipeline design & optimization",
-        "Identity resolution & data matching",
         "Event-driven architecture",
-        "Data warehouse design",
-        "PII handling & governance"
+        "Data warehouse design"
       ]
     },
     {
       "name": "Cloud Architecture & DevOps",
       "level": "Expert",
       "keywords": [
-        "AWS (Lambda, S3, SQS, SNS, Secrets Manager, Systems Manager, CloudFormation, IAM)",
-        "Server-to-Server (S2S) integrations",
+        "AWS",
         "Microservices architecture",
         "Docker & container orchestration",
-        "CI/CD pipeline design (GitHub Actions, GitLab CI, Jenkins)",
-        "Infrastructure-as-Code",
-        "Kubernetes (basic)",
-        "Monitoring & observability (CloudWatch, X-Ray)"
+        "CI/CD",
+        "Infrastructure-as-Code"
       ]
     },
     {
       "name": "Software Development",
       "level": "Expert",
       "keywords": [
-        "Python (async, data processing, testing)",
-        "SQL (query optimization, complex joins, window functions)",
-        "Linux/Unix system administration",
+        "Python",
+        "SQL",
+        "NoSQL",
         "Database design & optimization",
         "Serverless architecture"
       ]
@@ -194,25 +169,11 @@
       "name": "Software Development (Capable)",
       "level": "Accomplished",
       "keywords": [
-        "Go/Golang (microservices, systems programming)",
-        "Ruby (Rails, scripting)",
-        "PySpark (distributed data processing)",
+        "Go/Golang",
+        "Ruby",
+        "PySpark",
         "GraphQL / AppSync",
-        "DynamoDB (NoSQL design)",
-        "JavaScript/TypeScript (basic)"
-      ]
-    },
-    {
-      "name": "Privacy, Compliance & Data Governance",
-      "level": "Accomplished",
-      "keywords": [
-        "GDPR compliance & de-identification",
-        "CCPA compliance",
-        "PII protection & encryption",
-        "Data governance frameworks",
-        "Key rotation & secrets management",
-        "Audit logging & compliance automation",
-        "Data retention policies"
+        "DynamoDB"
       ]
     },
     {
@@ -228,19 +189,6 @@
         "Cross-functional collaboration",
         "Technical documentation",
         "Code review & quality standards"
-      ]
-    },
-    {
-      "name": "Quality Assurance & Testing",
-      "level": "Expert",
-      "keywords": [
-        "Test automation framework design",
-        "Unit, integration, & end-to-end testing",
-        "Test data management",
-        "Failure analysis & root cause",
-        "Performance & load testing",
-        "Continuous testing",
-        "Quality metrics & KPIs"
       ]
     },
     {
@@ -278,9 +226,7 @@
     {
       "name": "Wildlife Education & Risk Management",
       "keywords": [
-        "Assistant handler of alligators and venomous snakes (Reptile Gardens, Rapid City, SD)",
-        "Public speaking & education on wildlife safety",
-        "Risk assessment & mitigation in high-stakes environments"
+        "Assistant handler of alligators and venomous snakes (Reptile Gardens, Rapid City, SD)"
       ]
     }
   ],
