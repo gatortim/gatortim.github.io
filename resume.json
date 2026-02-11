@@ -8,7 +8,8 @@
     "website": "https://www.linkedin.com/in/tim-jacobs-software-engineer",
     "summary": "Staff Software Engineer specializing in large-scale backend architecture, data engineering, and high-impact DevOps transformation. Proven ability to drive technical roadmaps, mentor engineers, and deliver pragmatic, quality-focused solutions that optimize value streams and enable data-driven strategy across organizations.",
     "location": {
-      "address": "Longmont",
+      "postalCode": "CO 80501",
+      "city": "Longmont",
       "countryCode": "US",
       "region": "Colorado"
     },
