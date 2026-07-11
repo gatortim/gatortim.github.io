@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "jsonresume-theme-classy": "^1.0.9",
+    "jsonresume-theme-elegant": "^1.16.1",
+    "jsonresume-theme-engineering-leader": "^1.0.34",
+    "jsonresume-theme-even": "^0.26.1",
+    "jsonresume-theme-flat": "^0.3.7",
+    "jsonresume-theme-kendall": "^0.2.0",
+    "jsonresume-theme-light-classy-concise": "^1.0.0",
+    "jsonresume-theme-onepage": "^0.0.3",
+    "jsonresume-theme-printclassy": "^1.1.1",
+    "jsonresume-theme-sceptile": "^1.0.5",
+    "jsonresume-theme-simplyelegant": "^1.7.2",
+    "jsonresume-theme-stackoverflow": "^2.1.0",
+    "jsonresume-theme-waterfall": "^1.0.2"
+  }
+}
