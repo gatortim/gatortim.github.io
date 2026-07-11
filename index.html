@@ -1,483 +1,1252 @@
 <!doctype html>
 <html>
-	<head>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Tim Jacobs</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />  <style>
+  /********************************************
+* 	reset from
+* 	http://meyerweb.com/eric/tools/css/reset/
+*******************************************/
 
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
 
-	<title>Tim Jacobs</title>
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
 
-	<style>
-	body {
-  background: #EEEEEE;
-  font: 12px "Times New Roman", Times, sans-serif;
-  line-height: 1.4;
-  margin: 40px 0;
+body {
+  line-height: 1;
 }
-em {
-  color: #999;
-}
-p {
-  line-height: 1.4;
-}
+
+ol,
 ul {
-  margin-bottom: 0;
+  list-style: none;
 }
-li {
-  margin-bottom: 2px;
+
+blockquote,
+q {
+  quotes: none;
 }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/****************
+*	COMMONS
+****************/
+
+body,
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 13px;
+  color: #40484f;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.46153846;
+  text-align: left;
+}
+
+p {
+  display: block;
+}
+
 a {
+  color: #0095ff;
   text-decoration: none;
 }
 
+a:hover {
+  color: #0c65a5;
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 1.3em;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.67rem;
+}
+
+h3 {
+  font-size: 1.27rem;
+}
+
+em {
+  color: #757575;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* main container */
+
 #resume {
-  margin: 0 auto;
-  max-width: 600px;
-  padding: 80px 100px;
-  background: #fff;
-  border: 1px solid #ccc;
-  box-shadow: 2px 2px 4px #aaa;
-  -webkit-box-shadow: 2px 2px 4px #aaa;
+  padding: 1.5rem;
 }
 
-.coursesList {
-  width: 28%;
-  vertical-align: top;
-  display: inline-block;
+/* every section wrapper */
+
+.section {
+  margin-bottom: 1rem;
 }
 
-.largeFont {
-  font-size: 20px;
+section .location {
+  margin-right: 0.5em;
+  color: #606d76;
+  font-weight: 700;
 }
 
-.smallFont {
-  font-size: 12px;
+#contact {
+  margin-top: 0.5rem;
 }
 
-.sectionBlock {
+#profiles .item {
+  padding: 0;
+}
+
+#header > #profiles,
+#header > #contact,
+#skills,
+#languages,
+#interests {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
-  width: 100%;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
 }
 
-.sectionName {
-  width: 18%;
-  vertical-align: top;
-  display: inline-block;
+#header > div {
+  line-height: 1.5;
 }
 
-.sectionContent {
-  width: 80%;
-  vertical-align: top;
-  display: inline-block;
+#header > div > div {
+  margin-right: 1.2em;
 }
 
-.sectionContent ul {
-  padding-left: 20px;
-  margin-top: 6px;
-  list-style-type: circle;
+#header h1.name {
+  font-size: 2.8rem;
+  font-weight: 100;
+  line-height: 100%;
 }
 
-.sectionContent .title {
-  font-weight: bold;
+#header h2.label {
+  color: #202931;
+  font-size: 1.47rem;
+  font-weight: 300;
 }
 
-.sectionContent .date {
+#header .image {
+  width: 11em;
   float: right;
+  border-radius: 4px;
 }
 
-.sectionContent .separator {
-  height: 14px;
+.section.summary header {
+  margin-top: 1rem;
 }
 
-.sectionLine {
-  border-style: dashed;
-  border-width: 1px;
-  border-color: #CFCFCF;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.main-summary {
+  background: #f1f8ff;
+  padding: 1.2em 1em;
 }
 
-.divider {
-  font-weight: bold;
-  margin-left: 5px;
-  margin-right: 5px;
+.main-summary p {
+  margin: 0;
 }
 
-.summary {
-  margin-top: 6px;
+.section-title {
+  display: inline-block;
+  background: #fff;
+  padding: 0 1em 0.3em 0;
+  color: #ff6d1f;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  font-size: 0.9rem;
 }
 
-.skillBlock {
-  margin-bottom: 4px;
+.section > header {
+  position: relative;
 }
 
-.jobBlock {
-  page-break-inside: avoid;
+.fa {
+  margin-right: 0.25em;
 }
 
-/* Media Queries */
-@media only screen and (max-width: 40em) {
-  body {
-    margin: 0;
-    font-size: 14px;
+.section > header::after {
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  height: 1px;
+  background: #ccc;
+  content: "";
+  width: 100%;
+  z-index: -100;
+  display: block;
+}
+
+.section.main-summary > section {
+  margin: 0;
+}
+
+.section > section > header {
+  font-size: 1.38rem;
+  position: relative;
+  margin-top: 0.7em;
+}
+
+.section > section > header:first-of-type {
+  margin: 0;
+}
+
+.section > section > header .space-left {
+  position: absolute;
+  left: -1.56rem;
+  top: 5px;
+  color: #aaa;
+  line-height: 1;
+  opacity: 0;
+}
+
+.position,
+.company,
+.organization,
+.institution,
+.date,
+.area,
+.studyType,
+.title,
+.awarder {
+  display: inline;
+}
+
+.position,
+.studyType,
+.area,
+.title,
+.language,
+.name {
+  font-weight: 600;
+}
+
+.company::before,
+.institution::before,
+.organization::before,
+.awarder::before {
+  content: "at ";
+}
+
+.company,
+.institution,
+.organization,
+.awarder {
+  color: #606d76;
+  font-weight: 400;
+}
+
+.section header .date {
+  display: block;
+  font-size: 1rem;
+  padding: 0.1em 0;
+  color: #606d76;
+  font-weight: 400;
+}
+
+.keywords,
+.courses {
+  margin: 0.5em 0;
+}
+
+.keywords li,
+.courses li {
+  display: inline-block;
+  margin: 2px 2px 2px 0;
+  padding: 4px 5px 5px;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: #3e6d8e;
+  background-color: #dfeaf1;
+  border: 0 solid #dfeaf1;
+  white-space: nowrap;
+}
+
+.keywords li:hover,
+.courses li:hover {
+  background: #dfeaf0;
+}
+
+.highlights {
+  margin: 1em 0 0 0;
+}
+
+.highlights > li > p {
+  margin-bottom: 0.5em;
+}
+
+.item {
+  overflow: hidden;
+}
+
+.gpa {
+  clear: both;
+  padding-bottom: 0.5em;
+}
+
+.fa.social {
+  font-size: 1.1em;
+}
+
+/* Social Media Brand Colors */
+
+.google-plus {
+  color: #dd4b39;
+}
+
+.tumblr {
+  color: #32506d;
+}
+
+.foursquare {
+  color: #0072b1;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.linkedin {
+  color: #007bb6;
+}
+
+.pinterest {
+  color: #cb2027;
+}
+
+.dribbble {
+  color: #ea4c89;
+}
+
+.instagram {
+  color: #517fa4;
+}
+
+.twitter {
+  color: #00aced;
+}
+
+.soundcloud {
+  color: #ff3a00;
+}
+
+.wordpress {
+  color: #21759b;
+}
+
+.youtube {
+  color: #bb0000;
+}
+
+.github {
+  color: #171515;
+}
+
+.stack-overflow {
+  color: #828386;
+  position: relative;
+}
+
+.flickr {
+  color: #ff0084;
+}
+
+.reddit {
+  color: #ff4500;
+}
+
+.hacker-news {
+  color: #ff6600;
+}
+
+.stack-overflow::after {
+  position: absolute;
+  left: 0;
+  content: "\f16c";
+  color: #f68a1f;
+  overflow: hidden;
+  height: 100%;
+}
+
+.telegram {
+  color: #2291c3;
+}
+
+#languages .item,
+#skills .item,
+#interests .item {
+  width: 15em;
+  padding: 0 0.5em 0.5em 0;
+  border-bottom: none;
+}
+
+#skills .item {
+  width: 16em;
+}
+
+#skills .item .keywords {
+  width: 15em;
+}
+
+/* Skill chart */
+
+.level {
+  margin-bottom: 0.5em;
+}
+
+.level em {
+  padding-left: 0.2em;
+}
+
+.level .bar {
+  border: 1px solid #ddd;
+  display: block;
+  width: 10em;
+  height: 5px;
+  position: relative;
+}
+
+.level .bar::after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  background: black;
+  height: 5px;
+}
+
+.level.beginner .bar::after {
+  background: #eb5f51;
+  width: 2.5em;
+}
+
+.level.intermediate .bar::after {
+  background: #ffdf1f;
+  width: 5em;
+}
+
+.level.advanced .bar::after,
+.level.fluent .bar::after {
+  background: #5cb85c;
+  width: 7.5em;
+}
+
+.level.master .bar::after,
+.level.native.speaker .bar::after {
+  background: #59c596;
+  width: 10em;
+}
+
+#references .item {
+  padding-left: 0.5em;
+  margin-bottom: 1em;
+  border-left: 5px solid #ff6d1f;
+}
+
+.section > section > section {
+  margin-bottom: 1rem;
+}
+
+/******************
+*	HELPER CLASSES
+******************/
+
+.clear::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.display {
+  display: block;
+  opacity: 1 !important;
+}
+
+/****************
+*		TABLET
+****************/
+
+@media screen and (min-width: 602px) {
+  #resume {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .section header .date {
+    float: right;
+    font-weight: 600;
+    color: #000;
+  }
+}
+
+/****************
+*		LAPTOP
+****************/
+
+@media screen and (min-width: 1025px) {
+  li {
+    margin-left: 1.5em;
   }
   #resume {
-    margin: 0 auto;
-    max-width: 600px;
-    padding: 0.5em 1em;
-    border: none;
+    width: 820px;
+    margin: 2rem auto;
   }
-  .sectionContent {
-    width: 100%;
+  .section > section > header .space-left {
+    opacity: 1;
+    cursor: pointer;
   }
-  .sectionContent .date {
-    padding-right: 2em;
+  .section > section:not(.main-summary) {
+    margin-left: 1.67rem;
   }
-  .sectionName {
-    width: auto;
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "| ";
   }
-  .largeFont {
-    font-size: 20px;
+  .header-left {
+    float: left;
+    width: 70%;
+    word-break: normal;
   }
-  .smallFont {
-    font-size: 14px;
+  .section header .date {
+    padding: 0.2em;
+  }
+  .display {
+    display: none;
+  }
+  .display:not(.none) {
+    display: block;
   }
 }
 
 @media print {
-  #resume {
-    margin: 0 auto;
-    max-width: 600px;
-    padding: 0px 0px;
-    border: 0px;
-    background: #fff;
-    box-shadow: none;
-    -webkit-box-shadow: none;
+  #profiles a:not(.hide-href-print)::after{
+    content: " (" attr(href) ") ";
   }
-
-  a {
-    color: black;
+  #profiles .url .show-only-url-print {
+    display: none;
+  }
+  #profiles .url a::after {
+    content: attr(href);
+  }
+  #resume {
+    margin: 0.1em;
+    padding: 0.1em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    line-height: 1.25;
+  }
+  @page {
+    margin: 1cm 1.4cm;
+  }
+  .item-count {
+    display: none;
+  }
+  .company a {
+    color: #40484f;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "at ";
+  }
+  .main-summary {
+    padding: 0;
+    background: transparent;
+  }
+  .section {
+    margin: 0.8rem 0;
+    padding: 0;
+  }
+  .section header {
+    padding-bottom: 0.15rem;
+  }
+  .section .location {
+    padding-bottom: 0.15rem;
+  }
+  .section > section > section {
+    border-bottom: 1px solid #fdfdfd;
+    margin: .5em 0;
+  }
+  .section > section > section:last-of-type {
+    margin: 0;
+  }
+  .stack-overflow::after {
+    content: "";
+  }
+  .fa.social {
+    color: #828386;
+  }
+  ul {
+    margin-top: 0.4em;
+  }
+  ul,
+  li {
+    padding: 0;
+  }
+  ul.keywords li,
+  ul.courses li {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    background: transparent;
+  }
+  ul.keywords li::after,
+  ul.courses li::after {
+    padding: 0 0 0 0.1rem;
+    content: ", ";
+  }
+  ul.keywords::before,
+  ul.courses::before {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  #skills .item {
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem 0;
+    padding: 0;
+  }
+  #skills .level {
+    margin: 0.1rem 0;
+    font-weight: 400;
+  }
+  #skills .keywords {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  .highlights {
+    margin: 0.5em 0 0 0;
+  }
+  .highlights > li > p {
+    margin-bottom: 0.3em;
+  }
+  ul.keywords::before {
+    content: "Skills: ";
+    font-size: 1rem;
+  }
+  #skills .keywords::before {
+    content: none;
+  }
+  .section p {
+    margin: 0;
+    padding: 0;
+  }
+  ul.courses::before {
+    content: "Major courses: ";
+    font-size: 1rem;
+  }
+  ul.keywords li,
+  ul.courses li {
+    font-size: 1rem;
+    line-height: inherit;
+  }
+  ul.keywords li:last-of-type::after,
+  ul.courses li:last-of-type::after {
+    content: "";
+  }
+  .level em {
+    font-style: normal;
+    padding: 0.1em 0;
+  }
+  .level .bar {
+    display: none;
+  }
+  #profiles .item {
+    padding: 0;
+  }
+  .item.display {
+    display: block;
+    opacity: 1 !important;
+  }
+  .fa-location-dot:before {
+    padding-left: 0.1em;
   }
 }
 
-	</style>
-
-	</head>
-	<body>
-
-	<div id='resume'>
-  <div id='nameBlock' class='largeFont'>
-    <span class='name'>
-      Tim Jacobs,
-    </span>
-    <span class='label'>Staff Software Engineer | Data Engineering &amp; Architecture</span>
-  </div>
-  <div id='basicsBlock' class='smallFont'>
-    <div class='contactBlock'>
-      <span class='email'>timj.cu@gmail.com</span>
-      <span class='divider'>|</span>
-      <span class='phone'>(720) 934-6361</span>
-        <span class='divider'>|</span>
-        <span class='address'>
-          Longmont, Colorado, US
-        </span>
-    </div>
-      <div id='profilesBlock'>
-            <span class='url'>
-              <a href='https://www.linkedin.com/in/tim-jacobs-software-engineer'>https://www.linkedin.com/in/tim-jacobs-software-engineer</a>
-            </span>
-            
-      </div>
-  </div>
-  <div class='sectionLine'></div>
-
-  <div id='summaryBlock' class="sectionBlock">
-    <div class='sectionName'>
-      <span>SUMMARY</span>
-    </div>
-    <div class='sectionContent'>
-      <span>Staff Software Engineer specializing in large-scale backend architecture, data engineering, and high-impact DevOps transformation. Proven ability to drive technical roadmaps, mentor engineers, and deliver pragmatic, quality-focused solutions that optimize value streams and enable data-driven strategy across organizations.</span>
-    </div>
-  </div>
-  <div class='sectionLine'></div>
-
-  <div id='workBlock' class="sectionBlock">
-    <div class='sectionName'>
-      <span>EXPERIENCE</span>
-    </div>
-    <div class='sectionContent'>
-			<div class="jobBlock">
-	      <div class='blockHeader'>
-	        <span class='title'>
-	          EDO Inc., Senior Data Engineer
-	        </span>
-	        <span class='date'>
-	          2022-12-15 &mdash; Present
-	        </span>
-	      </div>
-	      <div><a href='https://www.edo.com'>https://www.edo.com</a></div>
-	      <ul class='highlights'>
-	        <li>Implemented medallion architecture on Snowflake-based data pipelines to ingest and process trillions of rows of cross-platform data, supporting 20+ enterprise partners.</li>
-	        <li>Architected a comprehensive data deletion and anonymization system in Snowflake and Airflow to ensure legal and regulatory compliance; established flexible automated TTL (Time-To-Live) policies for sensitive PII data across large-scale distributed datasets.</li>
-	        <li>Engineered a hypernormalized metadata management system that standardized fragmented data from dozens of sources into a single canonical schema, achieving 80% coverage of all monthly impression events and eliminating manual mapping bottlenecks.</li>
-	        <li>Developed a machine learning-based recommendation system that improved data quality mapping workflows.</li>
-	      </ul>
-	      <div class='separator'></div>
-			</div>
-			<div class="jobBlock">
-	      <div class='blockHeader'>
-	        <span class='title'>
-	          Pie Insurance, Staff Software Engineer
-	        </span>
-	        <span class='date'>
-	          2021-04-15 &mdash; 2022-12-05
-	        </span>
-	      </div>
-	      <div><a href='https://pieinsurance.com/'>https://pieinsurance.com/</a></div>
-	      <ul class='highlights'>
-	        <li>Microservices Architecture &amp; Quality-Obsessed Technical Leadership</li>
-	        <li>Designed &amp; delivered comprehensive test architecture for event-driven billing service; enabled continuous deployment across 8+ microservices-based systems with 99.9% reliability</li>
-	        <li>Architected &amp; deployed 40+ shared platform components consumed by multiple engineering teams; reduced time-to-market for new features by 50% and improved code reuse across organization</li>
-	        <li>Led technical design of CI/CD pipeline modernization; improved deployment velocity by 3x, reduced mean time to recovery by 60%, and enabled 200+ deployments/week</li>
-	        <li>Mentored 6 junior engineers on microservices patterns, testing strategy, and AWS cloud best practices; 3 engineers promoted during tenure</li>
-	      </ul>
-	      <div class='separator'></div>
-			</div>
-			<div class="jobBlock">
-	      <div class='blockHeader'>
-	        <span class='title'>
-	          Pie Insurance, Senior Software Engineer in Test
-	        </span>
-	        <span class='date'>
-	          2020-10-05 &mdash; 2021-04-14
-	        </span>
-	      </div>
-	      <div><a href='https://pieinsurance.com/'>https://pieinsurance.com/</a></div>
-	      <ul class='highlights'>
-	        <li>Test Automation &amp; Operational Data Architecture</li>
-	        <li>Developed scalable test automation framework for microservices in Python/Golang using AWS Lambda, S3, and SQS; automated 90% of previously manual test execution, reducing test cycle time from 6 hours to 12 minutes</li>
-	        <li>Led operational data team; designed &amp; implemented reference data re-architecture using event-driven ETL; reduced mean commit-to-deploy time from weeks to hours, enabling release velocity of 3x</li>
-	      </ul>
-	      <div class='separator'></div>
-			</div>
-			<div class="jobBlock">
-	      <div class='blockHeader'>
-	        <span class='title'>
-	          NetApp - Solidfire, Senior Software Engineer
-	        </span>
-	        <span class='date'>
-	          2016-04-04 &mdash; 2020-10-02
-	        </span>
-	      </div>
-	      <div><a href='http://netapp.com/us/products/storage-systems/all-flash-array/solidfire-scale-out.aspx'>http://netapp.com/us/products/storage-systems/all-flash-array/solidfire-scale-out.aspx</a></div>
-	      <ul class='highlights'>
-	        <li>Test Automation Leadership, Platform Architecture &amp; DevOps Transformation</li>
-	        <li>Designed &amp; led test result reporting platform from concept to production; engineered queryable database with 2M+ daily test records and automated management dashboards, eliminating 40+ hours/week of manual reporting</li>
-	        <li>Spearheaded DevOps transformation initiative with cross-functional stakeholders; reduced build failure rate by 50%, improved deployment reliability by 35%, and decreased infrastructure costs by $500K+/year</li>
-	        <li>Architected &amp; contributed to containerized test framework enabling migration of 1,000+ test cases from legacy systems to modern CI-driven infrastructure; reduced test execution time by 70% and improved reproducibility</li>
-	      </ul>
-	      <div class='separator'></div>
-			</div>
-			<div class="jobBlock">
-	      <div class='blockHeader'>
-	        <span class='title'>
-	          Micron Technology, SSD Validation Engineer → Engineering Supervisor
-	        </span>
-	        <span class='date'>
-	          2013-06-01 &mdash; 2016-04-01
-	        </span>
-	      </div>
-	      <div><a href=''></a></div>
-	      <ul class='highlights'>
-	        <li>Validation Leadership &amp; Data-Driven Operations (4 Direct Reports)</li>
-	        <li>Managed team of 4 engineers validating enterprise/data center SAS/SATA SSDs across 4 Tier-1 OEM partners; maintained &gt;$60M quarterly revenue through rigorous, on-time qualification processes</li>
-	        <li>Designed &amp; deployed qualification test status database with automated test script integration; eliminated manual reporting, enabled real-time visibility into validation progress, and reduced management reporting overhead by 30 hours/week</li>
-	        <li>Led complete automation rewrite to meet compatibility team requirements; reduced deployment schedule by 20 months, improved test execution efficiency by orders of magnitude</li>
-	      </ul>
-	      <div class='separator'></div>
-			</div>
-			<div class="jobBlock">
-	      <div class='blockHeader'>
-	        <span class='title'>
-	          Western Digital, Senior Test Engineer
-	        </span>
-	        <span class='date'>
-	          2011-04-01 &mdash; 2013-05-01
-	        </span>
-	      </div>
-	      <div><a href=''></a></div>
-	      <ul class='highlights'>
-	        <li>Test Leadership &amp; Failure Analysis</li>
-	        <li>Developed automated failure analysis debug scripts for firmware team; reduced debug overhead by 30% and accelerated time-to-resolution by 2x, enabling faster release cycles</li>
-	        <li>Compiled MTTF/MTBF data on failure modes enabling program management, quality, and reliability teams to make data-driven decisions supporting product roadmaps and SLAs</li>
-	      </ul>
-	      <div class='separator'></div>
-			</div>
-			<div class="jobBlock">
-	      <div class='blockHeader'>
-	        <span class='title'>
-	          Parsons Infrastructure &amp; Technology, Field Engineer
-	        </span>
-	        <span class='date'>
-	          2009-05-01 &mdash; 2011-03-01
-	        </span>
-	      </div>
-	      <div><a href=''></a></div>
-	      <ul class='highlights'>
-	        <li>Automation &amp; Systems Integration Leadership</li>
-	        <li>Built comprehensive instrument, material, schedule &amp; design verification database with web interface &amp; automated work control document generation; eliminated field rework, reducing engineering overhead from 40+ hours/week to zero</li>
-	      </ul>
-	      <div class='separator'></div>
-			</div>
-			<div class="jobBlock">
-	      <div class='blockHeader'>
-	        <span class='title'>
-	          Seagate Technology, Hardware Test Engineer → Failure Analysis Lead
-	        </span>
-	        <span class='date'>
-	          2005-12-01 &mdash; 2009-04-01
-	        </span>
-	      </div>
-	      <div><a href=''></a></div>
-	      <ul class='highlights'>
-	        <li>Failure Analysis Leadership &amp; Product Transfer to Production</li>
-	        <li>Led product transfer from development (Longmont, CO) to production (Wuxi, China) as failure analysis lead; delivered Seagate&#x27;s first 7200 RPM mobile drive to production at &gt;90% yields</li>
-	      </ul>
-	      
-			</div>
-    </div>
-  </div>
-  <div class='sectionLine'></div>
-
-
-
-
-	<div id='education' class="sectionBlock">
-    <div class='sectionName'>
-      <span>EDUCATION</span>
-    </div>
-    <div class='sectionContent'>
-      <div class='educationBlock'>
-        <span class='title'>
-          University of Colorado at Boulder
-        </span>
-        <div class=''>
-          Bachelor of Science  - Electrical Engineering, GPA: 3.74 (Cum Laude)
-        </div>
-        <div id='coursesBlock'>
-          <ul class='coursesList'>
-            <li class='course'>Neural Network Design</li>
-          </ul>
-          <ul class='coursesList'>
-            <li class='course'>Bioengineering focus</li>
-          </ul>
-          <ul class='coursesList'>
+  </style>
+  
+  </head>
+  <body>
+  
+  <div id="resume">
+    	<header id="header" class="clear">
+    		<div>
+    			<h1 class="name">Tim Jacobs</h1>
+    			<h2 class="label">Staff Software Engineer | Data, AI &amp; Platform Architecture</h2>
+    		</div>
+    
+    		<span class="location">
+    			<span class="postalCode">CO 80501,</span>
+    			<span class="city">Longmont,</span>
+    			<span class="region">Colorado</span>
+    			<span class="countryCode">(US)</span>
+    		</span>
+    
+    
+    		<div id="contact">
+    			<div class="website">
+    				<span class="fa-solid fa-up-right-from-square"></span>
+    				<a class="hide-href-print" target="_blank" target="_blank" href="https://www.linkedin.com/in/tim-jacobs-software-engineer">https://www.linkedin.com/in/tim-jacobs-software-engineer</a>
+    			</div>
+    			<div class="email">
+    				<span class="fa-regular fa-envelope"></span>
+    				<a class="hide-href-print" href="mailto:timj.cu@gmail.com">timj.cu@gmail.com</a>
+    			</div>
+    			<div class="phone">
+    				<span class="fa-solid fa-mobile-screen-button"></span>
+    				<a class="hide-href-print" href="tel:(720) 934-6361">(720) 934-6361</a>
+    			</div>
+    		</div>
+    
+    		<div id="profiles">
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa-brands fa-linkedin linkedin social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://www.linkedin.com/in/tim-jacobs-software-engineer"><span class="show-only-url-print">Tim Jacobs</span></a>
+    					</span>
+    				</div>
+    			</div>
+    		</div>
+    	</header>
+    
+    	<section class="section summary">
+        <header>
+          <h2 class="section-title">summary</h2>
+        </header>
+    		<section class="main-summary">
+    			<div><p><p>Staff Software Engineer with deep expertise in large-scale data platforms, LLM-powered retrieval systems (RAG), and cloud-native infrastructure. Proven architect of event-driven pipelines, vector search applications, and shared platform components that power data-intensive products. 15+ years building high-leverage backend systems from storage validation to distributed AI services. Seeking to apply this experience to mission-critical domains including healthcare, climate, education, or civic infrastructure, where technical excellence drives positive human impact.</p></p></div>
+    		</section>
+    	</section>
+    
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Skills</h2>
+      </header>
+      <section id="skills">
+        <div class="item">
+          <h3 class="name">
+            Data Engineering, AI &amp; Platform Architecture
+          </h3>
+            <div class="level expert">
+                <em>Expert</em>
+              <div class="bar"></div>
+            </div>
+          <ul class="keywords">
+            <li>Snowflake</li>
+            <li>dbt</li>
+            <li>Apache Airflow</li>
+            <li>ETL/ELT pipeline design</li>
+            <li>Vector search &amp; embeddings</li>
+            <li>RAG architecture</li>
+            <li>Event-driven systems</li>
+            <li>Data warehouse design</li>
           </ul>
         </div>
-      </div>
-      
-    </div>
-	</div>
-  <div class='sectionLine'></div>
+        <div class="item">
+          <h3 class="name">
+            AI &amp; Machine Learning
+          </h3>
+            <div class="level accomplished">
+                <em>Accomplished</em>
+              <div class="bar"></div>
+            </div>
+          <ul class="keywords">
+            <li>LLM integration &amp; prompting</li>
+            <li>Snowflake Cortex</li>
+            <li>Streamlit</li>
+            <li>Custom tokenization &amp; vectorization</li>
+            <li>k-NN / semantic search</li>
+            <li>Python ML ecosystem</li>
+            <li>Recommendation systems</li>
+            <li>Data quality automation</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Cloud Architecture &amp; DevOps
+          </h3>
+            <div class="level expert">
+                <em>Expert</em>
+              <div class="bar"></div>
+            </div>
+          <ul class="keywords">
+            <li>AWS</li>
+            <li>Microservices architecture</li>
+            <li>Docker &amp; containers</li>
+            <li>CI/CD pipeline design</li>
+            <li>Infrastructure-as-Code</li>
+            <li>Serverless architecture</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Software Development
+          </h3>
+            <div class="level expert">
+                <em>Expert</em>
+              <div class="bar"></div>
+            </div>
+          <ul class="keywords">
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Go/Golang</li>
+            <li>Database design &amp; optimization</li>
+            <li>Event-driven microservices</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Engineering Leadership
+          </h3>
+            <div class="level expert">
+                <em>Expert</em>
+              <div class="bar"></div>
+            </div>
+          <ul class="keywords">
+            <li>Technical architecture &amp; roadmap</li>
+            <li>Team mentorship &amp; growth</li>
+            <li>Agile/Scrum leadership</li>
+            <li>Cross-functional collaboration</li>
+            <li>DevOps transformation</li>
+          </ul>
+        </div>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Work Experience <span class="item-count">(7)</span></h2>
+      </header>
+    
+      <section id="work">
+        <section class="work-item">
+            <label for="work-item-0"></label>
+    
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Dec 2022</span>
+                <span class="endDate">- Current</span>
+              </div>
+              <div class="position">Senior Software Engineer</div>
+                <span class="company">
+                  <a target="_blank" href="https://www.edo.com">EDO Inc.</a>
+                </span>
+            </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Data platform &amp; AI systems architecture for cross-platform content intelligence.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Architected and deployed an internal RAG-based data-quality tool using Snowflake Cortex for LLM inference, custom tokenization and vectorization pipelines, and k-NN/embedding similarity search to surface AI-generated taxonomy mappings.</p></p></li>
+              <li><p><p>Built a Streamlit review interface so the data quality team can inspect, validate, and accept AI recommendations produced by the RAG pipeline.</p></p></li>
+              <li><p><p>Implemented medallion architecture on Snowflake-based data pipelines to ingest and process trillions of rows of cross-platform data, supporting 20+ enterprise partners.</p></p></li>
+              <li><p><p>Architected a comprehensive data deletion and anonymization system in Snowflake and Airflow to ensure legal and regulatory compliance; established flexible automated TTL policies for sensitive PII data across large-scale distributed datasets.</p></p></li>
+              <li><p><p>Engineered a hypernormalized metadata management system that standardized fragmented data from dozens of sources into a single canonical schema, achieving 80% coverage of all monthly events and eliminating manual mapping bottlenecks.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+            <label for="work-item-1"></label>
+    
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Oct 2020</span>
+                <span class="endDate">- Dec 2022</span>
+              </div>
+              <div class="position">Staff Software Engineer</div>
+                <span class="company">
+                  <a target="_blank" href="https://pieinsurance.com/">Pie Insurance</a>
+                </span>
+            </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Full-stack platform engineering, quality-focused technical leadership, and operational data architecture in a microservices environment.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Architected and deployed 40+ shared platform components consumed by multiple engineering teams; reduced time-to-market for new features by 50% and improved code reuse across the organization.</p></p></li>
+              <li><p><p>Led technical design of CI/CD pipeline modernization; improved deployment velocity by 3x, reduced mean time to recovery by 60%, and enabled 200+ deployments per week.</p></p></li>
+              <li><p><p>Designed comprehensive test architecture for an event-driven billing service; enabled continuous deployment across 8+ microservices-based systems with 99.9% reliability.</p></p></li>
+              <li><p><p>Led operational data team; designed and implemented reference data re-architecture using event-driven ETL; reduced mean commit-to-deploy time from weeks to hours, increasing release velocity by 3x.</p></p></li>
+              <li><p><p>Developed scalable test automation framework for microservices in Python/Golang using AWS Lambda, S3, and SQS; automated 90% of previously manual test execution, reducing test cycle time from 6 hours to 12 minutes.</p></p></li>
+              <li><p><p>Mentored 6 junior engineers on microservices patterns, testing strategy, and AWS cloud best practices; 3 engineers promoted during tenure.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+            <label for="work-item-2"></label>
+    
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Apr 2016</span>
+                <span class="endDate">- Oct 2020</span>
+              </div>
+              <div class="position">Senior Software Engineer</div>
+                <span class="company">
+                  <a target="_blank" href="https://www.netapp.com">NetApp - Solidfire</a>
+                </span>
+            </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Platform architecture, DevOps transformation, and test infrastructure leadership.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Designed and led a test result reporting platform from concept to production; engineered a queryable database with 2M+ daily test records and automated management dashboards, eliminating 40+ hours per week of manual reporting.</p></p></li>
+              <li><p><p>Spearheaded a DevOps transformation initiative with cross-functional stakeholders; reduced build failure rate by 50%, improved deployment reliability by 35%, and decreased infrastructure costs by $500K+ per year.</p></p></li>
+              <li><p><p>Architected a containerized test framework enabling migration of 1,000+ test cases from legacy systems to modern CI-driven infrastructure; reduced test execution time by 70% and improved reproducibility.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+            <label for="work-item-3"></label>
+    
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Jun 2013</span>
+                <span class="endDate">- Apr 2016</span>
+              </div>
+              <div class="position">SSD Validation Engineer → Engineering Supervisor</div>
+                <span class="company">
+                  <a target="_blank" href="https://www.micron.com">Micron Technology</a>
+                </span>
+            </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Validation leadership, data-driven operations, and team management (4 direct reports).</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Managed a team of 4 engineers validating enterprise/data center SAS/SATA SSDs across 4 Tier-1 OEM partners; maintained &gt;$60M quarterly revenue through rigorous, on-time qualification processes.</p></p></li>
+              <li><p><p>Designed and deployed a qualification test status database with automated test script integration; eliminated manual reporting, enabled real-time visibility into validation progress, and reduced management reporting overhead by 30 hours per week.</p></p></li>
+              <li><p><p>Led a complete automation rewrite to meet compatibility team requirements; reduced deployment schedule by 20 months, improving test execution efficiency by orders of magnitude.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+            <label for="work-item-4"></label>
+    
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Apr 2011</span>
+                <span class="endDate">- May 2013</span>
+              </div>
+              <div class="position">Senior Test Engineer</div>
+                <div class="company">Western Digital</div>
+            </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Automated failure analysis and firmware debug tooling.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Developed automated failure analysis debug scripts for the firmware team; reduced debug overhead by 30% and accelerated time-to-resolution by 2x, enabling faster release cycles.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+            <label for="work-item-5"></label>
+    
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">May 2009</span>
+                <span class="endDate">- Mar 2011</span>
+              </div>
+              <div class="position">Field Engineer</div>
+                <div class="company">Parsons Infrastructure &amp; Technology</div>
+            </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Field automation and systems integration.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Built a comprehensive instrument, material, schedule, and design verification database with a web interface and automated work control document generation; eliminated field rework, reducing engineering overhead from 40+ hours per week to zero.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+            <label for="work-item-6"></label>
+    
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Dec 2005</span>
+                <span class="endDate">- Apr 2009</span>
+              </div>
+              <div class="position">Hardware Test Engineer → Failure Analysis Lead</div>
+                <div class="company">Seagate Technology</div>
+            </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Failure analysis leadership and production transfer.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Led product transfer from development (Longmont, CO) to production (Wuxi, China) as failure analysis lead; delivered Seagate's first 7200 RPM mobile drive to production at &gt;90% yields.</p></p></li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Projects <span class="item-count">(1)</span></h2>
+      </header>
+      <section id="projects">
+        <section class="project-item">
+            <label for="project-item-0"></label>
+    
+          <header class="clear">
+            <div class="position">RAG Taxonomy Mapping Review Tool</div>
+            <div class="date">
+              <span class="startDate">Dec 2022</span>
+              <span class="endDate">- Current</span>
+            </div>
+          </header>
+          <ul class="keywords">
+              <li>RAG</li>
+              <li>Snowflake Cortex</li>
+              <li>Streamlit</li>
+              <li>k-NN search</li>
+              <li>Tokenization</li>
+              <li>Vectorization</li>
+              <li>Data quality</li>
+          </ul>
+          <div class="item">
+              <div class="summary"><p><p>Internal data-quality application that uses retrieval-augmented generation to recommend taxonomy mappings for cross-platform content catalogs.</p></p></div>
+            <ul class="highlights">
+                <li><p><p>Developed a custom tokenizer and vectorizer to prepare content metadata for k-NN similarity search and LLM inference inside Snowflake Cortex.</p></p></li>
+                <li><p><p>Implemented the RAG pipeline end-to-end, from vectorization and retrieval to LLM-based ranking of candidate taxonomy mappings.</p></p></li>
+                <li><p><p>Built a Streamlit interface so the data quality team can review, verify, and accept AI-generated recommendations before they enter production data pipelines.</p></p></li>
+                <li><p><p>Supports large-scale, cross-platform content catalogs and reduces manual taxonomy mapping overhead.</p></p></li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Education <span class="item-count">(1)</span></h2>
+      </header>
+    
+      <section id="education">
+        <section class="education-item">
+          <header class="clear">
+            <div class="date">
+              <span class="endDate">
+              - 2005
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="studyType">
+                Bachelor of Science
+              </div>
+              <div class="area">
+                Electrical Engineering
+              </div>
+              <div class="institution">
+                University of Colorado at Boulder
+              </div>
+            </div>
+          </header>
+    
+    
+          <ul class="courses">
+            <li>Neural Network Design</li>
+            <li>Bioengineering focus</li>
+          </ul>
+    
+          <div class="item">
+            <div class='gpa'>
+              <strong> Grade:</strong> <span>3.74 (Cum Laude)</span>
+            </div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Languages</h2>
+      </header>
+      <section id="languages">
+        <div class="display">
+          <h3 class="language">
+            English
+          </h3>
+          <div class="item">
+            <div class="level fluency native speaker">
+              <em>Native speaker</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title' class='section-title'>Interests</h2>
+      </header>
+      <section id="interests">
+        <div class="item">
+          <h3 class="name">
+            Machine Learning &amp; AI Research
+          </h3>
+          <ul class="keywords">
+            <li>Neural network design</li>
+            <li>LLM applications &amp; RAG systems</li>
+            <li>Predictive analytics</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Civic &amp; Open Technology
+          </h3>
+          <ul class="keywords">
+            <li>Open-source contributions</li>
+            <li>Technology for social good</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Outdoor Recreation
+          </h3>
+          <ul class="keywords">
+            <li>Hiking</li>
+            <li>Trail running</li>
+            <li>Mountain biking</li>
+          </ul>
+        </div>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>References</h2>
+      </header>
+      <section id="references">
+        <div class="item">
+          <div class="name">
+            Available upon request
+          </div>
+        </div>
+      </section>
+    </section>
 
-	<div id='skills' class="sectionBlock">
-    <div class='sectionName'>
-      <span>SKILLS</span>
-    </div>
-    <div class='sectionContent'>
-      <div class='skillBlock'>
-        <span class='title'>Data Engineering &amp; Architecture <em>(Expert)</em>:</span>
-          <span>Snowflake</span>, 
-          <span>dbt</span>, 
-          <span>Apache Airflow</span>, 
-          <span>ETL/ELT pipeline design &amp; optimization</span>, 
-          <span>Event-driven architecture</span>, 
-          <span>Data warehouse design</span>
-      </div>
-      <div class='skillBlock'>
-        <span class='title'>Cloud Architecture &amp; DevOps <em>(Expert)</em>:</span>
-          <span>AWS</span>, 
-          <span>Microservices architecture</span>, 
-          <span>Docker &amp; container orchestration</span>, 
-          <span>CI/CD</span>, 
-          <span>Infrastructure-as-Code</span>
-      </div>
-      <div class='skillBlock'>
-        <span class='title'>Software Development <em>(Expert)</em>:</span>
-          <span>Python</span>, 
-          <span>SQL</span>, 
-          <span>NoSQL</span>, 
-          <span>Database design &amp; optimization</span>, 
-          <span>Serverless architecture</span>
-      </div>
-      <div class='skillBlock'>
-        <span class='title'>Software Development (Capable) <em>(Accomplished)</em>:</span>
-          <span>Go/Golang</span>, 
-          <span>Ruby</span>, 
-          <span>PySpark</span>, 
-          <span>GraphQL / AppSync</span>, 
-          <span>DynamoDB</span>
-      </div>
-      <div class='skillBlock'>
-        <span class='title'>Engineering Leadership &amp; SDLC <em>(Expert)</em>:</span>
-          <span>Technical architecture &amp; design</span>, 
-          <span>Agile/Scrum leadership</span>, 
-          <span>CI/CD optimization</span>, 
-          <span>DevOps transformation</span>
-      </div>
-      <div class='skillBlock'>
-        <span class='title'>Big Data Technologies <em>(Capable)</em>:</span>
-          <span>Apache Hive</span>, 
-          <span>Apache Oozie</span>, 
-          <span>Apache Flume</span>, 
-          <span>Zookeeper</span>
-      </div>
-    </div>
-	</div>
-  <div class='sectionLine'></div>
-
-	<div id='languages' class="sectionBlock">
-    <div class='sectionName'>
-      <span>LANGUAGES</span>
-    </div>
-    <div class='sectionContent'>
-      <span class='language'>English</span>
-      <span class='fluency'><em>(Native speaker)</em></span>
-      
-    </div>
-    <div class='sectionLine'></div>
-	</div>
-
-	<div id='interests' class="sectionBlock">
-    <div class='sectionName'>
-      <span>INTERESTS</span>
-    </div>
-    <div class='sectionContent'>
-      <span class='name'>Machine Learning &amp; Predictive Analytics</span><!--
-      --><span class='keywords'> <em>[
-        Design of neural networks for sports prediction<!--
-        -->
-      ]</em></span><!--
-      --><span>, </span>
-      <span class='name'>Outdoor Recreation</span><!--
-      --><span class='keywords'> <em>[
-        Hiking<!--
-        -->, 
-        Trail running<!--
-        -->, 
-        Mountain biking<!--
-        -->
-      ]</em></span><!--
-      --><span>, </span>
-      <span class='name'>Wildlife Education &amp; Risk Management</span><!--
-      --><span class='keywords'> <em>[
-        Assistant handler of alligators and venomous snakes (Reptile Gardens, Rapid City, SD)<!--
-        -->
-      ]</em></span><!--
-      -->
-    </div>
-    <div class='sectionLine'></div>
-	</div>
-
-	</body>
+  </body>
 </html>
