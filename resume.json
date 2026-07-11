@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Tim Jacobs",
-    "label": "Staff Software Engineer | Data, AI & Platform Architecture",
+    "label": "Senior/Staff Software Engineer | Data, AI & Platform Architecture",
     "picture": "avatar.jpg",
     "email": "timj.cu@gmail.com",
     "phone": "(720) 934-6361",
     "website": "https://www.linkedin.com/in/tim-jacobs-software-engineer",
-    "summary": "Staff Software Engineer with deep expertise in large-scale data platforms, LLM-powered retrieval systems (RAG), and cloud-native infrastructure. Proven architect of event-driven pipelines, vector search applications, and shared platform components that power data-intensive products. 15+ years building high-leverage backend systems from storage validation to distributed AI services. Seeking to apply this experience to mission-critical domains including healthcare, climate, education, or civic infrastructure, where technical excellence drives positive human impact.",
+    "summary": "Staff Software Engineer with deep expertise in large-scale data platforms, LLM-powered retrieval systems (RAG), and cloud-native infrastructure. Proven architect of event-driven pipelines, vector search applications, and shared platform components that power data-intensive products. 15+ years building high-leverage backend systems from storage validation to distributed AI services. Seeking to apply this experience to mission-critical domains where technical excellence drives positive human impact.",
     "location": {
       "postalCode": "CO 80501",
       "city": "Longmont",
@@ -27,12 +27,11 @@
       "position": "Senior Software Engineer",
       "website": "https://www.edo.com",
       "startDate": "2022-12-15",
-      "summary": "Data platform \u0026 AI systems architecture for cross-platform content intelligence.",
+      "summary": "Data platform & AI systems architecture for cross-platform content intelligence.",
       "highlights": [
         "Architected and deployed an internal RAG-based data-quality tool using Snowflake Cortex for LLM inference, custom tokenization and vectorization pipelines, and k-NN/embedding similarity search to surface AI-generated taxonomy mappings.",
         "Built a Streamlit review interface so the data quality team can inspect, validate, and accept AI recommendations produced by the RAG pipeline.",
         "Implemented medallion architecture on Snowflake-based data pipelines to ingest and process trillions of rows of cross-platform data, supporting 20+ enterprise partners.",
-        "Architected a comprehensive data deletion and anonymization system in Snowflake and Airflow to ensure legal and regulatory compliance; established flexible automated TTL policies for sensitive PII data across large-scale distributed datasets.",
         "Engineered a hypernormalized metadata management system that standardized fragmented data from dozens of sources into a single canonical schema, achieving 80% coverage of all monthly events and eliminating manual mapping bottlenecks."
       ]
     },
@@ -42,7 +41,7 @@
       "website": "https://pieinsurance.com/",
       "startDate": "2020-10-05",
       "endDate": "2022-12-05",
-      "summary": "Full-stack platform engineering, quality-focused technical leadership, and operational data architecture in a microservices environment.",
+      "summary": "Full-stack platform engineering, quality-focused technical leadership, and operational data architecture.",
       "highlights": [
         "Architected and deployed 40+ shared platform components consumed by multiple engineering teams; reduced time-to-market for new features by 50% and improved code reuse across the organization.",
         "Led technical design of CI/CD pipeline modernization; improved deployment velocity by 3x, reduced mean time to recovery by 60%, and enabled 200+ deployments per week.",
@@ -77,36 +76,6 @@
         "Designed and deployed a qualification test status database with automated test script integration; eliminated manual reporting, enabled real-time visibility into validation progress, and reduced management reporting overhead by 30 hours per week.",
         "Led a complete automation rewrite to meet compatibility team requirements; reduced deployment schedule by 20 months, improving test execution efficiency by orders of magnitude."
       ]
-    },
-    {
-      "company": "Western Digital",
-      "position": "Senior Test Engineer",
-      "startDate": "2011-04-01",
-      "endDate": "2013-05-01",
-      "summary": "Automated failure analysis and firmware debug tooling.",
-      "highlights": [
-        "Developed automated failure analysis debug scripts for the firmware team; reduced debug overhead by 30% and accelerated time-to-resolution by 2x, enabling faster release cycles."
-      ]
-    },
-    {
-      "company": "Parsons Infrastructure & Technology",
-      "position": "Field Engineer",
-      "startDate": "2009-05-01",
-      "endDate": "2011-03-01",
-      "summary": "Field automation and systems integration.",
-      "highlights": [
-        "Built a comprehensive instrument, material, schedule, and design verification database with a web interface and automated work control document generation; eliminated field rework, reducing engineering overhead from 40+ hours per week to zero."
-      ]
-    },
-    {
-      "company": "Seagate Technology",
-      "position": "Hardware Test Engineer → Failure Analysis Lead",
-      "startDate": "2005-12-01",
-      "endDate": "2009-04-01",
-      "summary": "Failure analysis leadership and production transfer.",
-      "highlights": [
-        "Led product transfer from development (Longmont, CO) to production (Wuxi, China) as failure analysis lead; delivered Seagate's first 7200 RPM mobile drive to production at >90% yields."
-      ]
     }
   ],
   "education": [
@@ -115,11 +84,7 @@
       "area": "Electrical Engineering",
       "studyType": "Bachelor of Science",
       "endDate": "2005-12-16",
-      "gpa": "3.74 (Cum Laude)",
-      "courses": [
-        "Neural Network Design",
-        "Bioengineering focus"
-      ]
+      "gpa": "3.74 (Cum Laude)"
     }
   ],
   "skills": [
@@ -130,25 +95,20 @@
         "Snowflake",
         "dbt",
         "Apache Airflow",
-        "ETL/ELT pipeline design",
-        "Vector search & embeddings",
         "RAG architecture",
-        "Event-driven systems",
-        "Data warehouse design"
+        "Vector search & embeddings",
+        "Event-driven systems"
       ]
     },
     {
       "name": "AI & Machine Learning",
       "level": "Accomplished",
       "keywords": [
-        "LLM integration \u0026 prompting",
         "Snowflake Cortex",
+        "LLM integration & prompting",
         "Streamlit",
-        "Custom tokenization \u0026 vectorization",
-        "k-NN / semantic search",
-        "Python ML ecosystem",
-        "Recommendation systems",
-        "Data quality automation"
+        "Custom tokenization & vectorization",
+        "k-NN / semantic search"
       ]
     },
     {
@@ -156,11 +116,11 @@
       "level": "Expert",
       "keywords": [
         "AWS",
-        "Microservices architecture",
-        "Docker & containers",
+        "Kubernetes",
+        "Terraform",
+        "Docker",
         "CI/CD pipeline design",
-        "Infrastructure-as-Code",
-        "Serverless architecture"
+        "Microservices architecture"
       ]
     },
     {
@@ -170,8 +130,19 @@
         "Python",
         "SQL",
         "Go/Golang",
-        "Database design & optimization",
-        "Event-driven microservices"
+        "REST API",
+        "FastAPI"
+      ]
+    },
+    {
+      "name": "Databases & Storage",
+      "level": "Expert",
+      "keywords": [
+        "PostgreSQL",
+        "Redis",
+        "DynamoDB",
+        "Elasticsearch",
+        "Database design & optimization"
       ]
     },
     {
@@ -179,70 +150,8 @@
       "level": "Expert",
       "keywords": [
         "Technical architecture & roadmap",
-        "Team mentorship & growth",
-        "Agile/Scrum leadership",
-        "Cross-functional collaboration",
-        "DevOps transformation"
+        "Team mentorship & growth"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Machine Learning & AI Research",
-      "keywords": [
-        "Neural network design",
-        "LLM applications & RAG systems",
-        "Predictive analytics"
-      ]
-    },
-    {
-      "name": "Civic & Open Technology",
-      "keywords": [
-        "Open-source contributions",
-        "Technology for social good"
-      ]
-    },
-    {
-      "name": "Outdoor Recreation",
-      "keywords": [
-        "Hiking",
-        "Trail running",
-        "Mountain biking"
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "name": "RAG Taxonomy Mapping Review Tool",
-      "startDate": "2022-12-15",
-      "summary": "Internal data-quality application that uses retrieval-augmented generation to recommend taxonomy mappings for cross-platform content catalogs.",
-      "highlights": [
-        "Developed a custom tokenizer and vectorizer to prepare content metadata for k-NN similarity search and LLM inference inside Snowflake Cortex.",
-        "Implemented the RAG pipeline end-to-end, from vectorization and retrieval to LLM-based ranking of candidate taxonomy mappings.",
-        "Built a Streamlit interface so the data quality team can review, verify, and accept AI-generated recommendations before they enter production data pipelines.",
-        "Supports large-scale, cross-platform content catalogs and reduces manual taxonomy mapping overhead."
-      ],
-      "keywords": [
-        "RAG",
-        "Snowflake Cortex",
-        "Streamlit",
-        "k-NN search",
-        "Tokenization",
-        "Vectorization",
-        "Data quality"
-      ],
-      "url": ""
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request"
     }
   ]
 }
