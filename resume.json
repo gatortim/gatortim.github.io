@@ -6,7 +6,7 @@
     "email": "timj.cu@gmail.com",
     "phone": "(720) 934-6361",
     "website": "https://www.linkedin.com/in/tim-jacobs-software-engineer",
-    "summary": "Staff Software Engineer with deep expertise in large-scale data platforms, LLM-powered retrieval systems (RAG), and cloud-native infrastructure. Proven architect of event-driven pipelines, vector search applications, and shared platform components that power data-intensive products. 15+ years building high-leverage backend systems from storage validation to distributed AI services. Seeking to apply this experience to mission-critical domains where technical excellence drives positive human impact.",
+    "summary": "Staff Software Engineer with deep expertise in large-scale data platforms, LLM-powered retrieval systems (RAG), and cloud-native infrastructure. Proven architect of event-driven pipelines, vector search applications, and shared platform components that power data-intensive products. 15+ years building backend systems from storage validation to distributed AI services.",
     "location": {
       "postalCode": "CO 80501",
       "city": "Longmont",
@@ -29,10 +29,11 @@
       "startDate": "2022-12-15",
       "summary": "Data platform & AI systems architecture for cross-platform content intelligence.",
       "highlights": [
-        "Architected and deployed an internal RAG-based data-quality tool using Snowflake Cortex for LLM inference, custom tokenization and vectorization pipelines, and k-NN/embedding similarity search to surface AI-generated taxonomy mappings.",
-        "Built a Streamlit review interface so the data quality team can inspect, validate, and accept AI recommendations produced by the RAG pipeline.",
+        "Architected an LLM mapping pipeline on Snowflake Cortex (RAG, custom tokenization/vectorization, k-NN similarity search); reviewers accepted the LLM pick for 85% of 17,000+ mapped keys in its first six months.",
+        "Built the Streamlit review app that replaced the PR-based seed-file workflow, raising throughput 4.2x (5,151 vs 1,220 decisions/week) and cutting engineer PR reviews from 511 in 18 months to zero; 7 reviewers now write directly.",
         "Implemented medallion architecture on Snowflake-based data pipelines to ingest and process trillions of rows of cross-platform data, supporting 20+ enterprise partners.",
-        "Engineered a hypernormalized metadata management system that standardized fragmented data from dozens of sources into a single canonical schema, achieving 80% coverage of all monthly events and eliminating manual mapping bottlenecks."
+        "Engineered a hypernormalized metadata management system that standardized fragmented data from dozens of sources into a single canonical schema, achieving 80% coverage of all monthly events.",
+        "Shipped 120+ work items across two delivery spaces in 12 months, including 12 highest-priority (P0) items and the Phase 1 integration of a major media company's advertising data platform."
       ]
     },
     {
@@ -45,7 +46,6 @@
       "highlights": [
         "Architected and deployed 40+ shared platform components consumed by multiple engineering teams; reduced time-to-market for new features by 50% and improved code reuse across the organization.",
         "Led technical design of CI/CD pipeline modernization; improved deployment velocity by 3x, reduced mean time to recovery by 60%, and enabled 200+ deployments per week.",
-        "Designed comprehensive test architecture for an event-driven billing service; enabled continuous deployment across 8+ microservices-based systems with 99.9% reliability.",
         "Led operational data team; designed and implemented reference data re-architecture using event-driven ETL; reduced mean commit-to-deploy time from weeks to hours, increasing release velocity by 3x.",
         "Developed scalable test automation framework for microservices in Python/Golang using AWS Lambda, S3, and SQS; automated 90% of previously manual test execution, reducing test cycle time from 6 hours to 12 minutes.",
         "Mentored 6 junior engineers on microservices patterns, testing strategy, and AWS cloud best practices; 3 engineers promoted during tenure."
@@ -73,8 +73,7 @@
       "summary": "Validation leadership, data-driven operations, and team management (4 direct reports).",
       "highlights": [
         "Managed a team of 4 engineers validating enterprise/data center SAS/SATA SSDs across 4 Tier-1 OEM partners; maintained >$60M quarterly revenue through rigorous, on-time qualification processes.",
-        "Designed and deployed a qualification test status database with automated test script integration; eliminated manual reporting, enabled real-time visibility into validation progress, and reduced management reporting overhead by 30 hours per week.",
-        "Led a complete automation rewrite to meet compatibility team requirements; reduced deployment schedule by 20 months, improving test execution efficiency by orders of magnitude."
+        "Designed and deployed a qualification test status database with automated test script integration; eliminated manual reporting, enabled real-time visibility into validation progress, and reduced management reporting overhead by 30 hours per week."
       ]
     }
   ],
@@ -139,6 +138,8 @@
       "level": "Expert",
       "keywords": [
         "PostgreSQL",
+        "MySQL",
+        "MongoDB",
         "Redis",
         "DynamoDB",
         "Elasticsearch",

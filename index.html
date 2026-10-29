@@ -845,7 +845,7 @@ section .location {
           <h2 class="section-title">summary</h2>
         </header>
     		<section class="main-summary">
-    			<div><p><p>Staff Software Engineer with deep expertise in large-scale data platforms, LLM-powered retrieval systems (RAG), and cloud-native infrastructure. Proven architect of event-driven pipelines, vector search applications, and shared platform components that power data-intensive products. 15+ years building high-leverage backend systems from storage validation to distributed AI services. Seeking to apply this experience to mission-critical domains where technical excellence drives positive human impact.</p></p></div>
+    			<div><p><p>Staff Software Engineer with deep expertise in large-scale data platforms, LLM-powered retrieval systems (RAG), and cloud-native infrastructure. Proven architect of event-driven pipelines, vector search applications, and shared platform components that power data-intensive products. 15+ years building backend systems from storage validation to distributed AI services.</p></p></div>
     		</section>
     	</section>
     
@@ -930,6 +930,8 @@ section .location {
             </div>
           <ul class="keywords">
             <li>PostgreSQL</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
             <li>Redis</li>
             <li>DynamoDB</li>
             <li>Elasticsearch</li>
@@ -974,10 +976,11 @@ section .location {
            <div class="item" id="work-item">
             <div class="summary"><p><p>Data platform &amp; AI systems architecture for cross-platform content intelligence.</p></p></div>
             <ul class="highlights">
-              <li><p><p>Architected and deployed an internal RAG-based data-quality tool using Snowflake Cortex for LLM inference, custom tokenization and vectorization pipelines, and k-NN/embedding similarity search to surface AI-generated taxonomy mappings.</p></p></li>
-              <li><p><p>Built a Streamlit review interface so the data quality team can inspect, validate, and accept AI recommendations produced by the RAG pipeline.</p></p></li>
+              <li><p><p>Architected an LLM mapping pipeline on Snowflake Cortex (RAG, custom tokenization/vectorization, k-NN similarity search); reviewers accepted the LLM pick for 85% of 17,000+ mapped keys in its first six months.</p></p></li>
+              <li><p><p>Built the Streamlit review app that replaced the PR-based seed-file workflow, raising throughput 4.2x (5,151 vs 1,220 decisions/week) and cutting engineer PR reviews from 511 in 18 months to zero; 7 reviewers now write directly.</p></p></li>
               <li><p><p>Implemented medallion architecture on Snowflake-based data pipelines to ingest and process trillions of rows of cross-platform data, supporting 20+ enterprise partners.</p></p></li>
-              <li><p><p>Engineered a hypernormalized metadata management system that standardized fragmented data from dozens of sources into a single canonical schema, achieving 80% coverage of all monthly events and eliminating manual mapping bottlenecks.</p></p></li>
+              <li><p><p>Engineered a hypernormalized metadata management system that standardized fragmented data from dozens of sources into a single canonical schema, achieving 80% coverage of all monthly events.</p></p></li>
+              <li><p><p>Shipped 120+ work items across two delivery spaces in 12 months, including 12 highest-priority (P0) items and the Phase 1 integration of a major media company's advertising data platform.</p></p></li>
             </ul>
           </div>
         </section>
@@ -1000,7 +1003,6 @@ section .location {
             <ul class="highlights">
               <li><p><p>Architected and deployed 40+ shared platform components consumed by multiple engineering teams; reduced time-to-market for new features by 50% and improved code reuse across the organization.</p></p></li>
               <li><p><p>Led technical design of CI/CD pipeline modernization; improved deployment velocity by 3x, reduced mean time to recovery by 60%, and enabled 200+ deployments per week.</p></p></li>
-              <li><p><p>Designed comprehensive test architecture for an event-driven billing service; enabled continuous deployment across 8+ microservices-based systems with 99.9% reliability.</p></p></li>
               <li><p><p>Led operational data team; designed and implemented reference data re-architecture using event-driven ETL; reduced mean commit-to-deploy time from weeks to hours, increasing release velocity by 3x.</p></p></li>
               <li><p><p>Developed scalable test automation framework for microservices in Python/Golang using AWS Lambda, S3, and SQS; automated 90% of previously manual test execution, reducing test cycle time from 6 hours to 12 minutes.</p></p></li>
               <li><p><p>Mentored 6 junior engineers on microservices patterns, testing strategy, and AWS cloud best practices; 3 engineers promoted during tenure.</p></p></li>
@@ -1049,7 +1051,6 @@ section .location {
             <ul class="highlights">
               <li><p><p>Managed a team of 4 engineers validating enterprise/data center SAS/SATA SSDs across 4 Tier-1 OEM partners; maintained &gt;$60M quarterly revenue through rigorous, on-time qualification processes.</p></p></li>
               <li><p><p>Designed and deployed a qualification test status database with automated test script integration; eliminated manual reporting, enabled real-time visibility into validation progress, and reduced management reporting overhead by 30 hours per week.</p></p></li>
-              <li><p><p>Led a complete automation rewrite to meet compatibility team requirements; reduced deployment schedule by 20 months, improving test execution efficiency by orders of magnitude.</p></p></li>
             </ul>
           </div>
         </section>
